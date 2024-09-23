@@ -1,0 +1,1907 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>d483855f663b43bdb0426df86a4602c2</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" data-tags="[]">
+<h1 id="introduction-à-lapprentissage-par-renforcement">Introduction à
+l'apprentissage par renforcement</h1>
+<h1 id="tp-1---les-manchots-multi-bras">TP 1 - les manchots
+multi-bras</h1>
+<p>1/4 de la note finale est liée à la mise en forme :</p>
+<ul>
+<li>pensez à nettoyer les outputs inutiles (installation, messages de
+débuggage, ...)</li>
+<li>soignez vos figures : les axes sont-ils faciles à comprendre ?
+L'échelle est adaptée ?</li>
+<li>commentez vos résultats : vous attendiez-vous à les avoir ? Est-ce
+étonnant ? Faites le lien avec la théorie.</li>
+</ul>
+<p>Ce TP reprend l'exemple d'un médecin et de ses vaccins. Vous allez
+comparer plusieurs stratégies et trouver celle optimale. Un TP se fait
+en groupe de 2 à 4. Aucun groupe de plus de 4 personnes.</p>
+<p>Vous allez rendre le TP dans une archive ZIP. L'archive ZIP contient
+ce notebook au format <code>ipynb</code>, mais aussi exporté en PDF
+&amp; HTML. L'archive ZIP doit aussi contenir un fichier txt appelé
+<code>groupe.txt</code> sous le format:</p>
+<pre><code>Nom1, Prenom1, Email1, NumEtudiant1
+Nom2, Prenom2, Email2, NumEtudiant2
+Nom3, Prenom3, Email3, NumEtudiant3
+Nom4, Prenom4, Email4, NumEtudiant4</code></pre>
+<p>Un script vient extraire vos réponses : ne changez pas l'ordre des
+cellules et soyez sûrs que les graphes sont bien présents dans la
+version notebook soumise.</p>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> pip install matplotlib tqdm numpy ipympl opencv<span class="op">-</span>python torch tqdm</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>jupyter labextension install <span class="op">@</span>jupyter<span class="op">-</span>widgets<span class="op">/</span>jupyterlab<span class="op">-</span>manager</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>jupyter labextension install jupyter<span class="op">-</span>matplotlib</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: matplotlib in ./.venv/lib/python3.10/site-packages (3.9.2)
+Requirement already satisfied: tqdm in ./.venv/lib/python3.10/site-packages (4.66.5)
+Requirement already satisfied: numpy in ./.venv/lib/python3.10/site-packages (2.1.1)
+Requirement already satisfied: ipympl in ./.venv/lib/python3.10/site-packages (0.9.4)
+Requirement already satisfied: opencv-python in ./.venv/lib/python3.10/site-packages (4.10.0.84)
+Requirement already satisfied: torch in ./.venv/lib/python3.10/site-packages (2.4.1)
+Requirement already satisfied: contourpy&gt;=1.0.1 in ./.venv/lib/python3.10/site-packages (from matplotlib) (1.3.0)
+Requirement already satisfied: pillow&gt;=8 in ./.venv/lib/python3.10/site-packages (from matplotlib) (10.4.0)
+Requirement already satisfied: packaging&gt;=20.0 in ./.venv/lib/python3.10/site-packages (from matplotlib) (24.1)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in ./.venv/lib/python3.10/site-packages (from matplotlib) (3.1.4)
+Requirement already satisfied: kiwisolver&gt;=1.3.1 in ./.venv/lib/python3.10/site-packages (from matplotlib) (1.4.7)
+Requirement already satisfied: fonttools&gt;=4.22.0 in ./.venv/lib/python3.10/site-packages (from matplotlib) (4.53.1)
+Requirement already satisfied: python-dateutil&gt;=2.7 in ./.venv/lib/python3.10/site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: cycler&gt;=0.10 in ./.venv/lib/python3.10/site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: ipython&lt;9 in ./.venv/lib/python3.10/site-packages (from ipympl) (8.27.0)
+Requirement already satisfied: ipython-genutils in ./.venv/lib/python3.10/site-packages (from ipympl) (0.2.0)
+Requirement already satisfied: traitlets&lt;6 in ./.venv/lib/python3.10/site-packages (from ipympl) (5.14.3)
+Requirement already satisfied: ipywidgets&lt;9,&gt;=7.6.0 in ./.venv/lib/python3.10/site-packages (from ipympl) (8.1.5)
+Requirement already satisfied: typing-extensions&gt;=4.8.0 in ./.venv/lib/python3.10/site-packages (from torch) (4.12.2)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.1.105 in ./.venv/lib/python3.10/site-packages (from torch) (12.1.105)
+Requirement already satisfied: nvidia-cusparse-cu12==12.1.0.106 in ./.venv/lib/python3.10/site-packages (from torch) (12.1.0.106)
+Requirement already satisfied: fsspec in ./.venv/lib/python3.10/site-packages (from torch) (2024.9.0)
+Requirement already satisfied: nvidia-cufft-cu12==11.0.2.54 in ./.venv/lib/python3.10/site-packages (from torch) (11.0.2.54)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.1.105 in ./.venv/lib/python3.10/site-packages (from torch) (12.1.105)
+Requirement already satisfied: nvidia-curand-cu12==10.3.2.106 in ./.venv/lib/python3.10/site-packages (from torch) (10.3.2.106)
+Requirement already satisfied: networkx in ./.venv/lib/python3.10/site-packages (from torch) (3.3)
+Requirement already satisfied: nvidia-cublas-cu12==12.1.3.1 in ./.venv/lib/python3.10/site-packages (from torch) (12.1.3.1)
+Requirement already satisfied: filelock in ./.venv/lib/python3.10/site-packages (from torch) (3.16.0)
+Requirement already satisfied: nvidia-cusolver-cu12==11.4.5.107 in ./.venv/lib/python3.10/site-packages (from torch) (11.4.5.107)
+Requirement already satisfied: sympy in ./.venv/lib/python3.10/site-packages (from torch) (1.13.2)
+Requirement already satisfied: nvidia-nccl-cu12==2.20.5 in ./.venv/lib/python3.10/site-packages (from torch) (2.20.5)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.1.105 in ./.venv/lib/python3.10/site-packages (from torch) (12.1.105)
+Requirement already satisfied: nvidia-nvtx-cu12==12.1.105 in ./.venv/lib/python3.10/site-packages (from torch) (12.1.105)
+Requirement already satisfied: triton==3.0.0 in ./.venv/lib/python3.10/site-packages (from torch) (3.0.0)
+Requirement already satisfied: nvidia-cudnn-cu12==9.1.0.70 in ./.venv/lib/python3.10/site-packages (from torch) (9.1.0.70)
+Requirement already satisfied: jinja2 in ./.venv/lib/python3.10/site-packages (from torch) (3.1.4)
+Requirement already satisfied: nvidia-nvjitlink-cu12 in ./.venv/lib/python3.10/site-packages (from nvidia-cusolver-cu12==11.4.5.107-&gt;torch) (12.6.68)
+Requirement already satisfied: jedi&gt;=0.16 in ./.venv/lib/python3.10/site-packages (from ipython&lt;9-&gt;ipympl) (0.19.1)
+Requirement already satisfied: pygments&gt;=2.4.0 in ./.venv/lib/python3.10/site-packages (from ipython&lt;9-&gt;ipympl) (2.18.0)
+Requirement already satisfied: matplotlib-inline in ./.venv/lib/python3.10/site-packages (from ipython&lt;9-&gt;ipympl) (0.1.7)
+Requirement already satisfied: stack-data in ./.venv/lib/python3.10/site-packages (from ipython&lt;9-&gt;ipympl) (0.6.3)
+Requirement already satisfied: exceptiongroup in ./.venv/lib/python3.10/site-packages (from ipython&lt;9-&gt;ipympl) (1.2.2)
+Requirement already satisfied: decorator in ./.venv/lib/python3.10/site-packages (from ipython&lt;9-&gt;ipympl) (5.1.1)
+Requirement already satisfied: pexpect&gt;4.3 in ./.venv/lib/python3.10/site-packages (from ipython&lt;9-&gt;ipympl) (4.9.0)
+Requirement already satisfied: prompt-toolkit&lt;3.1.0,&gt;=3.0.41 in ./.venv/lib/python3.10/site-packages (from ipython&lt;9-&gt;ipympl) (3.0.47)
+Requirement already satisfied: widgetsnbextension~=4.0.12 in ./.venv/lib/python3.10/site-packages (from ipywidgets&lt;9,&gt;=7.6.0-&gt;ipympl) (4.0.13)
+Requirement already satisfied: comm&gt;=0.1.3 in ./.venv/lib/python3.10/site-packages (from ipywidgets&lt;9,&gt;=7.6.0-&gt;ipympl) (0.2.2)
+Requirement already satisfied: jupyterlab-widgets~=3.0.12 in ./.venv/lib/python3.10/site-packages (from ipywidgets&lt;9,&gt;=7.6.0-&gt;ipympl) (3.0.13)
+Requirement already satisfied: six&gt;=1.5 in ./.venv/lib/python3.10/site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib) (1.16.0)
+Requirement already satisfied: MarkupSafe&gt;=2.0 in ./.venv/lib/python3.10/site-packages (from jinja2-&gt;torch) (2.1.5)
+Requirement already satisfied: mpmath&lt;1.4,&gt;=1.1.0 in ./.venv/lib/python3.10/site-packages (from sympy-&gt;torch) (1.3.0)
+Requirement already satisfied: parso&lt;0.9.0,&gt;=0.8.3 in ./.venv/lib/python3.10/site-packages (from jedi&gt;=0.16-&gt;ipython&lt;9-&gt;ipympl) (0.8.4)
+Requirement already satisfied: ptyprocess&gt;=0.5 in ./.venv/lib/python3.10/site-packages (from pexpect&gt;4.3-&gt;ipython&lt;9-&gt;ipympl) (0.7.0)
+Requirement already satisfied: wcwidth in ./.venv/lib/python3.10/site-packages (from prompt-toolkit&lt;3.1.0,&gt;=3.0.41-&gt;ipython&lt;9-&gt;ipympl) (0.2.13)
+Requirement already satisfied: asttokens&gt;=2.1.0 in ./.venv/lib/python3.10/site-packages (from stack-data-&gt;ipython&lt;9-&gt;ipympl) (2.4.1)
+Requirement already satisfied: executing&gt;=1.2.0 in ./.venv/lib/python3.10/site-packages (from stack-data-&gt;ipython&lt;9-&gt;ipympl) (2.1.0)
+Requirement already satisfied: pure-eval in ./.venv/lib/python3.10/site-packages (from stack-data-&gt;ipython&lt;9-&gt;ipympl) (0.2.3)
+
+[notice] A new release of pip is available: 23.0.1 -&gt; 24.2
+[notice] To update, run: pip install --upgrade pip
+usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
+               [--paths] [--json] [--debug]
+               [subcommand]
+
+Jupyter: Interactive Computing
+
+positional arguments:
+  subcommand     the subcommand to launch
+
+options:
+  -h, --help     show this help message and exit
+  --version      show the versions of core jupyter packages and exit
+  --config-dir   show Jupyter config dir
+  --data-dir     show Jupyter data dir
+  --runtime-dir  show Jupyter runtime dir
+  --paths        show all Jupyter paths. Add --json for machine-readable
+                 format.
+  --json         output paths as machine-readable json
+  --debug        output debug information about paths
+
+Available subcommands: kernel kernelspec migrate run troubleshoot
+
+Jupyter command `jupyter-labextension` not found.
+usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
+               [--paths] [--json] [--debug]
+               [subcommand]
+
+Jupyter: Interactive Computing
+
+positional arguments:
+  subcommand     the subcommand to launch
+
+options:
+  -h, --help     show this help message and exit
+  --version      show the versions of core jupyter packages and exit
+  --config-dir   show Jupyter config dir
+  --data-dir     show Jupyter data dir
+  --runtime-dir  show Jupyter runtime dir
+  --paths        show all Jupyter paths. Add --json for machine-readable
+                 format.
+  --json         output paths as machine-readable json
+  --debug        output debug information about paths
+
+Available subcommands: kernel kernelspec migrate run troubleshoot
+
+Jupyter command `jupyter-labextension` not found.
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>load_ext autoreload</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>autoreload <span class="dv">2</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tqdm <span class="im">import</span> tqdm</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> List, Tuple</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> typing <span class="im">as</span> t</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tqdm.auto <span class="im">import</span> trange, tqdm</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib.animation <span class="im">import</span> FuncAnimation</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.animation <span class="im">as</span> animation</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib.backends.backend_agg <span class="im">import</span> FigureCanvasAgg <span class="im">as</span> FigureCanvas</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> cv2</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> display, clear_output</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>torch.random.manual_seed(<span class="dv">0</span>)</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>K <span class="op">=</span> <span class="dv">5</span> <span class="co"># num arms</span></span></code></pre></div>
+</div>
+<section id="présentation-du-problème" class="cell markdown">
+<h1>Présentation du problème</h1>
+</section>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.testing</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> ArmBernoulli:</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, p: <span class="bu">float</span>):</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>        <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co">        Vaccine treatment following a Bernoulli law (mean is p and variance is p(1-p)</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co">        Args:</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co">             p (float): mean parameter</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="co">             </span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="co">        &gt;&gt;&gt; torch.random.manual_seed(random_state)        </span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="co">        &gt;&gt;&gt; arm = ArmBernoulli(0.5)</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co">        &gt;&gt;&gt; arm.sample(5)</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="co">        tensor([ True, False,  True,  True,  True])</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="co">        &quot;&quot;&quot;</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.immunity_rate <span class="op">=</span> p</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> sample(<span class="va">self</span>, n: <span class="bu">int</span> <span class="op">=</span> <span class="dv">1</span>) <span class="op">-&gt;</span> torch.Tensor:</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> torch.rand(n) <span class="op">&lt;</span> <span class="va">self</span>.immunity_rate</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__repr__</span>(<span class="va">self</span>):</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f&#39;&lt;ArmBernoulli p=</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>immunity_rate<span class="sc">}</span><span class="ss">&#39;</span> </span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_arms(num_arms: <span class="bu">int</span>):</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>    means <span class="op">=</span> torch.rand(num_arms)</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    <span class="co"># print(&quot;means =&quot;, means)</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    MAB <span class="op">=</span> [ArmBernoulli(m) <span class="cf">for</span> m <span class="kw">in</span> means]</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">assert</span> MAB[<span class="dv">0</span>].immunity_rate <span class="op">==</span> means[<span class="dv">0</span>]</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">assert</span> (MAB[<span class="dv">0</span>].sample(<span class="dv">10</span>) <span class="op">&lt;=</span> <span class="dv">1</span>).<span class="bu">all</span>() <span class="kw">and</span> (MAB[<span class="dv">0</span>].sample(<span class="dv">10</span>) <span class="op">&gt;=</span> <span class="dv">0</span>).<span class="bu">all</span>() </span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> MAB</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>MAB <span class="op">=</span> generate_arms(K)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Ce TP reprend l'exemple du médecin présenté en cours.</p>
+<p><strong>Q1. Créez une fonction pour trouver <span
+class="math inline"><em>μ</em><sup>*</sup></span> à partir d'un
+<code>MAB</code>. Comment est définie la récompense <span
+class="math inline"><em>R</em><sub><em>k</em></sub></span> ? Que
+représente concrètement le regret dans cet exemple ?</strong></p>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> find_mean_reward_from_best_vaccin(MAB : List[ArmBernoulli], hide_immunity_rate <span class="op">=</span> <span class="va">False</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    N <span class="op">=</span> <span class="dv">1000</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    means : List[<span class="bu">float</span>]</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> hide_immunity_rate:</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>        means <span class="op">=</span> [torch.mean(arm.sample(N), dtype<span class="op">=</span><span class="bu">float</span>) <span class="cf">for</span> arm <span class="kw">in</span> MAB]</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>        means <span class="op">=</span> [arm.immunity_rate <span class="cf">for</span> arm <span class="kw">in</span> MAB]</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;means =&quot;</span>, means)</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    mu_star : <span class="bu">float</span> <span class="op">=</span> <span class="bu">max</span>(means).item()</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;mu_star =&quot;</span>, mu_star)</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> mu_star</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> apply_vaccin(arm : ArmBernoulli) <span class="op">-&gt;</span> <span class="bu">int</span>:</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Rk</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns 1 if the patient is immunised thanks to the vaccin and 0 if not&quot;&quot;&quot;</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">1</span> <span class="cf">if</span> arm.sample(<span class="dv">1</span>).item() <span class="cf">else</span> <span class="dv">0</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> compute_regret(MAB : List[ArmBernoulli], N : <span class="bu">int</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>    mu_star <span class="op">=</span> find_mean_reward_from_best_vaccin(MAB, <span class="va">False</span>)</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>    <span class="co"># rn = N * mu_star - </span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>find_mean_reward_from_best_vaccin(MAB)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>means = [tensor(0.4963), tensor(0.7682), tensor(0.0885), tensor(0.1320), tensor(0.3074)]
+mu_star = 0.7682217955589294
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>0.7682217955589294</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em></p>
+<p><strong>Que représente concrètement le regret dans cet exemple
+?</strong></p>
+<p>[Réponse] Le regret représente le nombre de patient qui aurait pu
+être immunisé si le meilleur avait été utilisé à chaque fois.</p>
+</div>
+<div class="cell markdown">
+<p><strong>Note importante :</strong> pour la suite, les tests seront
+faits avec 10 MAB différents ou plus pour réduire le bruit de
+simulation. Concrètement, on exécutera au moins 10x
+<code>generate_arms</code>.</p>
+<h1 id="i-cas-classique-des-bandits-manchots">I. Cas classique des
+bandits manchots</h1>
+</div>
+<section id="ia-solution-gloutonne" class="cell markdown"
+data-tags="[]">
+<h2>I.a. Solution Gloutonne</h2>
+</section>
+<div class="cell markdown">
+<p>Le médecin fonctionne sur deux phases :</p>
+<ol>
+<li><strong>Exploration :</strong> N patients reçoivent une dose d'un
+vaccin choisi aléatoirement. Le médecin calcule le taux d'immunisation
+empirique :</li>
+</ol>
+<p><span class="math display">$$\bar{R_i} = \frac{1}{T_i}
+\sum_{k=0}^{N-1} \chi_{v_k,i}R_k,$$</span></p>
+<p>avec <span class="math inline">$T_i = \sum_{k=0}^{N-1}
+\chi_{v_k,i}$</span>.</p>
+<ol>
+<li><strong>Exploitation :</strong> Le vaccin <span
+class="math inline">$v_i = \arg\max_j \bar{R_j}$</span> est utilisé pour
+les M patients suivants. C'est la phase de test.</li>
+</ol>
+<p><strong>Q2. Implémentez la solution gloutonne avec N = 50 et M = 500
+et testez la avec 100 MAB différents (tous ont 5 vaccins). On
+s'intéresse à la variable aléatoire "la phase d'exploration a trouvé le
+bon vaccin". Quelle est l'espérance empirique de cette variable ? Et son
+écart-type ? Calculez de même l'espérance et l'écart-type du regret sur
+vos 100 simulations.</strong></p>
+<p>Pour rappel, le regret est défini par :</p>
+<p><span class="math display">$$r_n = n\mu^* - \sum_{k=0}^{n-1}
+R_k$$</span></p>
+<p><strong>Attention :</strong> <span
+class="math inline"><em>n</em></span> est le nombre total de patients,
+donc ici <span class="math inline"><em>N</em> + <em>M</em></span>.</p>
+</div>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>MABs <span class="op">=</span> [generate_arms(<span class="dv">5</span>) <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">100</span>)]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="103">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> <span class="dv">50</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>M <span class="op">=</span> <span class="dv">500</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>log <span class="op">=</span> <span class="bu">print</span> <span class="cf">if</span> <span class="va">False</span> <span class="cf">else</span> (<span class="kw">lambda</span> <span class="op">*</span>_, <span class="op">**</span>_2 : <span class="va">None</span>)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>C <span class="op">=</span> <span class="dv">2</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="109">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> compute_empirical_immuniation_rate(vaccins_used : torch.Tensor, Rk : torch.Tensor, nb_vaccin : <span class="bu">int</span>) <span class="op">-&gt;</span> torch.Tensor:</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    n_patients : <span class="bu">int</span> <span class="op">=</span> vaccins_used.shape[<span class="dv">0</span>]</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    vaccins_used <span class="op">=</span> vaccins_used.to(torch.<span class="bu">int</span>)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    log(<span class="st">&quot;vaccins_used =&quot;</span>, vaccins_used)</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    log(<span class="st">&quot;Rk =&quot;</span>, Rk)</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    log(<span class="st">&quot;Rk shape =&quot;</span>, Rk.shape)</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>    n_patient <span class="op">=</span> vaccins_used.shape[<span class="dv">0</span>]</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">assert</span>(Rk.shape[<span class="dv">0</span>] <span class="op">==</span> n_patient)</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># compute the number of times each vaccin has been used</span></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>    T <span class="op">=</span> torch.bincount(vaccins_used, minlength<span class="op">=</span>nb_vaccin)</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>    log(<span class="st">&quot;T =&quot;</span>, T)</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Compute the indicator function</span></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>    X <span class="op">=</span> torch.zeros((n_patients, nb_vaccin))</span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>    X[torch.arange(n_patients), vaccins_used] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>    log(<span class="st">&quot;X shape =&quot;</span>, X.shape)</span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>    <span class="co"># log(&quot;X :&quot;, X)</span></span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>    Ris <span class="op">=</span> torch.Tensor([<span class="dv">1</span> <span class="op">/</span> T[i] <span class="op">*</span> (X[:,i] <span class="op">@</span> Rk) <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(nb_vaccin)]).flatten()</span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>    log(Ris)</span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>    <span class="co"># compute with bias</span></span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>    bias <span class="op">=</span> torch.sqrt(C <span class="op">*</span> (math.log(n_patients) <span class="cf">if</span> n_patients <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">else</span> <span class="dv">0</span>) <span class="op">/</span> T)</span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>    Ris_with_bias <span class="op">=</span> Ris <span class="op">+</span> bias</span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>    log(Ris_with_bias)</span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> Ris, Ris_with_bias</span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> exploration(MAB : List[ArmBernoulli], n_patients : <span class="bu">int</span>) <span class="op">-&gt;</span> <span class="bu">tuple</span>[torch.tensor, torch.tensor]:</span>
+<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n_patients <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> torch.Tensor(), torch.Tensor()</span>
+<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a>    nb_vaccin <span class="op">=</span> <span class="bu">len</span>(MAB)</span>
+<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a>    log(<span class="st">&quot;Arms immunity rate :&quot;</span>, [arm.immunity_rate <span class="cf">for</span> arm <span class="kw">in</span> MAB])</span>
+<span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-44"><a href="#cb12-44" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Vaccin used for all patients </span></span>
+<span id="cb12-45"><a href="#cb12-45" aria-hidden="true" tabindex="-1"></a>    vaccins_used <span class="op">=</span> torch.randint(<span class="dv">0</span>, nb_vaccin, (n_patients,))</span>
+<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-47"><a href="#cb12-47" aria-hidden="true" tabindex="-1"></a>    <span class="co"># apply vaccins</span></span>
+<span id="cb12-48"><a href="#cb12-48" aria-hidden="true" tabindex="-1"></a>    Rk <span class="op">=</span> torch.cat([MAB[vaccins_used[k]].sample(<span class="dv">1</span>) <span class="cf">for</span> k <span class="kw">in</span> <span class="bu">range</span>(n_patients)]).flatten().to(torch.<span class="bu">float</span>)</span>
+<span id="cb12-49"><a href="#cb12-49" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-50"><a href="#cb12-50" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> vaccins_used, Rk</span>
+<span id="cb12-51"><a href="#cb12-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-52"><a href="#cb12-52" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> compute_regret(n_success_exploration_vaccin : <span class="bu">int</span>, MAB : List[ArmBernoulli], real_best_vaccin : <span class="bu">int</span>, n_patients : <span class="bu">int</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb12-53"><a href="#cb12-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-54"><a href="#cb12-54" aria-hidden="true" tabindex="-1"></a>    max_vaccin <span class="op">=</span> (n_patients <span class="op">*</span> MAB[real_best_vaccin].immunity_rate).item()</span>
+<span id="cb12-55"><a href="#cb12-55" aria-hidden="true" tabindex="-1"></a>    log(<span class="st">&quot;max_vaccin :&quot;</span>, max_vaccin)</span>
+<span id="cb12-56"><a href="#cb12-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-57"><a href="#cb12-57" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> max_vaccin <span class="op">-</span> n_success_exploration_vaccin</span>
+<span id="cb12-58"><a href="#cb12-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-59"><a href="#cb12-59" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> exploitation_no_update(MAB : List[ArmBernoulli], exploration_best_vaccin : <span class="bu">int</span>, n_patients : <span class="bu">int</span>) <span class="op">-&gt;</span> <span class="bu">int</span>:</span>
+<span id="cb12-60"><a href="#cb12-60" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb12-61"><a href="#cb12-61" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb12-62"><a href="#cb12-62" aria-hidden="true" tabindex="-1"></a><span class="co">        float: Number of patients that have been immune by a vaccin</span></span>
+<span id="cb12-63"><a href="#cb12-63" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb12-64"><a href="#cb12-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-65"><a href="#cb12-65" aria-hidden="true" tabindex="-1"></a>    <span class="co"># apply vaccin in exploitation</span></span>
+<span id="cb12-66"><a href="#cb12-66" aria-hidden="true" tabindex="-1"></a>    n_success_exploration_vaccin <span class="op">=</span> MAB[exploration_best_vaccin].sample(n_patients).<span class="bu">sum</span>().item()</span>
+<span id="cb12-67"><a href="#cb12-67" aria-hidden="true" tabindex="-1"></a>    log(<span class="st">&quot;exploration_vaccin :&quot;</span>, n_success_exploration_vaccin)</span>
+<span id="cb12-68"><a href="#cb12-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-69"><a href="#cb12-69" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> n_success_exploration_vaccin</span>
+<span id="cb12-70"><a href="#cb12-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-71"><a href="#cb12-71" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simulation_no_update(MAB : List[ArmBernoulli], n_patients_exploration : <span class="bu">int</span>, n_patients_exploitation : <span class="bu">int</span>) <span class="op">-&gt;</span> Tuple[<span class="bu">bool</span>, <span class="bu">float</span>]:</span>
+<span id="cb12-72"><a href="#cb12-72" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb12-73"><a href="#cb12-73" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb12-74"><a href="#cb12-74" aria-hidden="true" tabindex="-1"></a><span class="co">        Tuple[bool, float]: Is vaccin found by exploration then TRUE | Regret of the exploitation</span></span>
+<span id="cb12-75"><a href="#cb12-75" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb12-76"><a href="#cb12-76" aria-hidden="true" tabindex="-1"></a>               </span>
+<span id="cb12-77"><a href="#cb12-77" aria-hidden="true" tabindex="-1"></a>    vaccins_used, Rk <span class="op">=</span> exploration(MAB, n_patients_exploration)</span>
+<span id="cb12-78"><a href="#cb12-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-79"><a href="#cb12-79" aria-hidden="true" tabindex="-1"></a>    Ris, _ <span class="op">=</span> compute_empirical_immuniation_rate(vaccins_used<span class="op">=</span>vaccins_used, Rk<span class="op">=</span>Rk, nb_vaccin<span class="op">=</span><span class="bu">len</span>(MAB))</span>
+<span id="cb12-80"><a href="#cb12-80" aria-hidden="true" tabindex="-1"></a>    exploration_best_vaccin <span class="op">=</span> Ris.argmax()</span>
+<span id="cb12-81"><a href="#cb12-81" aria-hidden="true" tabindex="-1"></a>    log(<span class="st">&quot;exploration best vaccin :&quot;</span>, exploration_best_vaccin)</span>
+<span id="cb12-82"><a href="#cb12-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-83"><a href="#cb12-83" aria-hidden="true" tabindex="-1"></a>    real_best_vaccin <span class="op">=</span> np.array([arm.immunity_rate <span class="cf">for</span> arm <span class="kw">in</span> MAB]).argmax()</span>
+<span id="cb12-84"><a href="#cb12-84" aria-hidden="true" tabindex="-1"></a>    log(<span class="st">&quot;real best vaccin :&quot;</span>, real_best_vaccin)</span>
+<span id="cb12-85"><a href="#cb12-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-86"><a href="#cb12-86" aria-hidden="true" tabindex="-1"></a>    n_success_exploration_vaccin <span class="op">=</span> exploitation_no_update(MAB, exploration_best_vaccin, n_patients<span class="op">=</span>n_patients_exploitation)</span>
+<span id="cb12-87"><a href="#cb12-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-88"><a href="#cb12-88" aria-hidden="true" tabindex="-1"></a>    regret <span class="op">=</span> compute_regret(n_success_exploration_vaccin, MAB, real_best_vaccin, n_patients_exploitation)</span>
+<span id="cb12-89"><a href="#cb12-89" aria-hidden="true" tabindex="-1"></a>    log(<span class="st">&quot;Regret :&quot;</span>, regret)</span>
+<span id="cb12-90"><a href="#cb12-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-91"><a href="#cb12-91" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> real_best_vaccin <span class="op">==</span> exploration_best_vaccin, regret </span>
+<span id="cb12-92"><a href="#cb12-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-93"><a href="#cb12-93" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> print_results(samples_exploration_found_good_vaccin : torch.Tensor, exploitation_regrets : torch.Tensor) <span class="op">-&gt;</span> <span class="va">None</span>:</span>
+<span id="cb12-94"><a href="#cb12-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-95"><a href="#cb12-95" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> samples_exploration_found_good_vaccin <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb12-96"><a href="#cb12-96" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&quot;E_exploration_found_good_vaccin :&quot;</span>, samples_exploration_found_good_vaccin.mean())</span>
+<span id="cb12-97"><a href="#cb12-97" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&quot;std_exploration_found_good_vaccin :&quot;</span>, samples_exploration_found_good_vaccin.std())</span>
+<span id="cb12-98"><a href="#cb12-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-99"><a href="#cb12-99" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;E_exploitation_regrets :&quot;</span>, exploitation_regrets.mean())</span>
+<span id="cb12-100"><a href="#cb12-100" aria-hidden="true" tabindex="-1"></a>    std_exploitation_regrets <span class="op">=</span> exploitation_regrets.std()</span>
+<span id="cb12-101"><a href="#cb12-101" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;std_exploitation_regrets :&quot;</span>, std_exploitation_regrets)</span>
+<span id="cb12-102"><a href="#cb12-102" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;std_exploitation_regrets rate :&quot;</span>, std_exploitation_regrets <span class="op">/</span> M)</span>
+<span id="cb12-103"><a href="#cb12-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-104"><a href="#cb12-104" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">False</span>: <span class="co"># test with one simulation</span></span>
+<span id="cb12-105"><a href="#cb12-105" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> torch.randint(<span class="dv">0</span>, <span class="dv">100</span>, (<span class="dv">1</span>, )).item()</span>
+<span id="cb12-106"><a href="#cb12-106" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;index :&quot;</span>, i)</span>
+<span id="cb12-107"><a href="#cb12-107" aria-hidden="true" tabindex="-1"></a>    simulation(MABs[i], N, M)</span>
+<span id="cb12-108"><a href="#cb12-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-109"><a href="#cb12-109" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">True</span>: <span class="co"># test with all the simulations</span></span>
+<span id="cb12-110"><a href="#cb12-110" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-111"><a href="#cb12-111" aria-hidden="true" tabindex="-1"></a>    l <span class="op">=</span> torch.Tensor([simulation_no_update(MAB, N, M) <span class="cf">for</span> MAB <span class="kw">in</span> tqdm(MABs)])</span>
+<span id="cb12-112"><a href="#cb12-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-113"><a href="#cb12-113" aria-hidden="true" tabindex="-1"></a>    samples_exploration_found_good_vaccin <span class="op">=</span> l[:, <span class="dv">0</span>]</span>
+<span id="cb12-114"><a href="#cb12-114" aria-hidden="true" tabindex="-1"></a>    exploitation_regrets <span class="op">=</span> l[:, <span class="dv">1</span>]</span>
+<span id="cb12-115"><a href="#cb12-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-116"><a href="#cb12-116" aria-hidden="true" tabindex="-1"></a>    print_results(samples_exploration_found_good_vaccin, exploitation_regrets)</span>
+<span id="cb12-117"><a href="#cb12-117" aria-hidden="true" tabindex="-1"></a>    </span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;fb5c6440d672465db6d4cbae152ec55d&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>E_exploration_found_good_vaccin : tensor(0.6600)
+std_exploration_found_good_vaccin : tensor(0.4761)
+E_exploitation_regrets : tensor(18.6421)
+std_exploitation_regrets : tensor(37.3139)
+std_exploitation_regrets rate : tensor(0.0746)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Q3. On propose d'améliorer l'algorithme précédant en mettant
+à jour les taux d'immunisation empiriques <span
+class="math inline"><em>R̄</em><sub><em>i</em></sub></span> pendant
+l'exploitation. Notez vous une amélioration du regret ? Proposez un
+exemple dans lequel cette mise à jour ne changera rien.</strong></p>
+</div>
+<div class="cell code" data-execution_count="110">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> exploitation_update_immune_rate(MAB : List[ArmBernoulli], vaccins_used : torch.Tensor, Rk : torch.Tensor, n_patients : <span class="bu">int</span>, real_best_vaccin : <span class="bu">int</span>, add_bias : <span class="bu">bool</span>, proba_take_best_vaccin : <span class="bu">float</span>) <span class="op">-&gt;</span> Tuple[torch.Tensor, torch.Tensor, torch.Tensor]:</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co">        Tuple[torch.Tensor, torch.Tensor, torch.Tensor]: The immune rate for all vaccin at each iteration, same with bias, the regret at each iteration</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">sum</span> <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    regrets <span class="op">=</span> []</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>    list_Ris <span class="op">=</span> []</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>    list_Ris_with_bias <span class="op">=</span> []</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>    nb_vaccin <span class="op">=</span> <span class="bu">len</span>(MAB)</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> k <span class="kw">in</span> <span class="bu">range</span>(n_patients):</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>        <span class="co"># compute immunition rates</span></span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>        Ris, Ris_with_bias <span class="op">=</span> compute_empirical_immuniation_rate(vaccins_used<span class="op">=</span>vaccins_used, Rk<span class="op">=</span>Rk, nb_vaccin<span class="op">=</span><span class="bu">len</span>(MAB))</span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>        list_Ris.append(Ris)</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>        list_Ris_with_bias.append(Ris_with_bias)</span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Choose the strategy</span></span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> torch.rand(size<span class="op">=</span>(<span class="dv">1</span>,)).item() <span class="op">&lt;</span> proba_take_best_vaccin: <span class="co"># Choose the vaccin considered as the best one</span></span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>            vaccin_to_apply <span class="op">=</span> (Ris_with_bias <span class="cf">if</span> add_bias <span class="cf">else</span> Ris).argmax().to(torch.<span class="bu">int</span>)</span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>            log(<span class="st">&quot;exploration best vaccin :&quot;</span>, vaccin_to_apply)</span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>: <span class="co"># choose a random vaccin</span></span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a>            vaccin_to_apply <span class="op">=</span> torch.randint(low<span class="op">=</span><span class="dv">0</span>, high<span class="op">=</span>nb_vaccin, size<span class="op">=</span>(<span class="dv">1</span>, )).item()</span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a>            log(<span class="st">&quot;random vaccin :&quot;</span>, vaccin_to_apply)</span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a>        <span class="co"># apply vaccin</span></span>
+<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a>        success <span class="op">=</span> MAB[vaccin_to_apply].sample(<span class="dv">1</span>)</span>
+<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a>        <span class="bu">sum</span> <span class="op">+=</span> success.item()</span>
+<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a>        <span class="co"># update vaccins_used and Rk</span></span>
+<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a>        vaccins_used <span class="op">=</span> torch.cat((vaccins_used, torch.Tensor([vaccin_to_apply])))</span>
+<span id="cb15-34"><a href="#cb15-34" aria-hidden="true" tabindex="-1"></a>        Rk <span class="op">=</span> torch.cat((Rk, success))</span>
+<span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-36"><a href="#cb15-36" aria-hidden="true" tabindex="-1"></a>        <span class="co"># compute regret</span></span>
+<span id="cb15-37"><a href="#cb15-37" aria-hidden="true" tabindex="-1"></a>        regret <span class="op">=</span> compute_regret(<span class="bu">sum</span>, MAB, real_best_vaccin, k <span class="op">+</span> <span class="dv">1</span>)</span>
+<span id="cb15-38"><a href="#cb15-38" aria-hidden="true" tabindex="-1"></a>        regrets.append(regret)</span>
+<span id="cb15-39"><a href="#cb15-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-40"><a href="#cb15-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> torch.stack(list_Ris), torch.stack(list_Ris_with_bias), torch.Tensor(regrets)</span>
+<span id="cb15-41"><a href="#cb15-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-42"><a href="#cb15-42" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simulation_update_immune_rate(MAB : List[ArmBernoulli], n_patients_exploration : <span class="bu">int</span>, n_patients_exploitation : <span class="bu">int</span>, add_bias : <span class="bu">bool</span>, proba_take_best_vaccin : <span class="bu">float</span>) <span class="op">-&gt;</span> Tuple[torch.Tensor, torch.Tensor, torch.Tensor]:</span>
+<span id="cb15-43"><a href="#cb15-43" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb15-44"><a href="#cb15-44" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb15-45"><a href="#cb15-45" aria-hidden="true" tabindex="-1"></a><span class="co">        Tuple[torch.Tensor, torch.Tensor, torch.Tensor]: The immune rate for all vaccin at each iteration, , the regret at each iteration</span></span>
+<span id="cb15-46"><a href="#cb15-46" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb15-47"><a href="#cb15-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-48"><a href="#cb15-48" aria-hidden="true" tabindex="-1"></a>    <span class="co"># exploration           </span></span>
+<span id="cb15-49"><a href="#cb15-49" aria-hidden="true" tabindex="-1"></a>    vaccins_used, Rk <span class="op">=</span> exploration(MAB, n_patients_exploration)</span>
+<span id="cb15-50"><a href="#cb15-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-51"><a href="#cb15-51" aria-hidden="true" tabindex="-1"></a>    <span class="co"># get the real best vaccin</span></span>
+<span id="cb15-52"><a href="#cb15-52" aria-hidden="true" tabindex="-1"></a>    real_best_vaccin <span class="op">=</span> np.array([arm.immunity_rate <span class="cf">for</span> arm <span class="kw">in</span> MAB]).argmax()</span>
+<span id="cb15-53"><a href="#cb15-53" aria-hidden="true" tabindex="-1"></a>    log(<span class="st">&quot;real best vaccin :&quot;</span>, real_best_vaccin)</span>
+<span id="cb15-54"><a href="#cb15-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-55"><a href="#cb15-55" aria-hidden="true" tabindex="-1"></a>    <span class="co"># exploitation</span></span>
+<span id="cb15-56"><a href="#cb15-56" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> exploitation_update_immune_rate(MAB, vaccins_used, Rk, n_patients_exploitation, real_best_vaccin, add_bias, proba_take_best_vaccin<span class="op">=</span>proba_take_best_vaccin)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># test with all the simulations</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>last_regrets <span class="op">=</span> torch.Tensor(</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>        simulation_update_immune_rate(MAB, add_bias<span class="op">=</span><span class="va">False</span>, proba_take_best_vaccin<span class="op">=</span><span class="dv">1</span>, n_patients_exploration<span class="op">=</span>N, n_patients_exploitation<span class="op">=</span>M)[<span class="dv">2</span>][<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> MAB <span class="kw">in</span> tqdm(MABs)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>print_results(<span class="va">None</span>, last_regrets)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;20b7d19be904412593e5f0203b96674a&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>E_exploitation_regrets : tensor(5.1721)
+std_exploitation_regrets : tensor(17.5161)
+std_exploitation_regrets rate : tensor(0.0350)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em></p>
+<ul>
+<li><em>Notez vous une amélioration du regret ?</em></li>
+</ul>
+<p>Oui, nous observons une nette observation du regret.</p>
+<ul>
+<li><em>Proposez un exemple dans lequel cette mise à jour ne changera
+rien.</em></li>
+</ul>
+<p>Cette mise à jour ne sert à rien lorsque le meilleur vaccin a été
+trouvé lors de l'exploration et que mettre à jour les taux d'immunsation
+des vaccins ne fait pas changer le vaccin qui est considéré comme le
+plus performant.</p>
+</div>
+<div class="cell markdown">
+<p><strong>Q4. Créez une figure contenant deux sous-figures : à gauche,
+le taux d'immunisation empirique <span
+class="math inline"><em>R̄</em><sub><em>i</em></sub></span> pour les 5
+vaccins ; à droite, le regret <span
+class="math inline"><em>r</em><sub><em>n</em></sub></span>. La figure
+sera animée avec les patients : chaque frame <span
+class="math inline"><em>k</em></span> de l'animation représente le
+vaccin que l'on donne au <span
+class="math inline"><em>k</em></span>-ième patient.</strong></p>
+</div>
+<div class="cell code" data-execution_count="127">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_a_simulation(MAB : List[ArmBernoulli], add_bias : <span class="bu">bool</span> <span class="op">=</span> <span class="va">False</span>, proba_take_best_vaccin : <span class="bu">float</span> <span class="op">=</span> <span class="dv">1</span>, n_patients_exploration : <span class="bu">int</span> <span class="op">=</span> N, n_patients_exploitation : <span class="bu">int</span> <span class="op">=</span> M) <span class="op">-&gt;</span> <span class="va">None</span>:</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Immunity rates :&quot;</span>, [<span class="bu">round</span>(arm.immunity_rate.item(), <span class="dv">3</span>) <span class="cf">for</span> arm <span class="kw">in</span> MAB])</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>    list_Ris, list_Ris_with_bias, regrets <span class="op">=</span> simulation_update_immune_rate(MAB, n_patients_exploration, n_patients_exploitation, add_bias, proba_take_best_vaccin<span class="op">=</span>proba_take_best_vaccin)</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># store Tensor in a dataframe</span></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>    df_Ris <span class="op">=</span> pd.DataFrame(list_Ris, columns<span class="op">=</span>[<span class="ss">f&quot;nu</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">&quot;</span> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(MAB))])</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>    df_Ris_with_bias <span class="op">=</span> pd.DataFrame(list_Ris_with_bias, columns<span class="op">=</span>[<span class="ss">f&quot;nu</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">_bias&quot;</span> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(MAB))])</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>    df_regrets <span class="op">=</span> pd.DataFrame(regrets, columns<span class="op">=</span>[<span class="st">&quot;regrets&quot;</span>])</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>    _, axes <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">20</span>, <span class="dv">10</span>))</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>    colors<span class="op">=</span>[<span class="st">&quot;red&quot;</span>, <span class="st">&quot;blue&quot;</span>, <span class="st">&quot;green&quot;</span>, <span class="st">&quot;purple&quot;</span>, <span class="st">&quot;orange&quot;</span>] <span class="cf">if</span> <span class="bu">len</span>(MAB) <span class="op">==</span> <span class="dv">5</span> <span class="cf">else</span> <span class="va">None</span></span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>    df_Ris.plot(kind<span class="op">=</span><span class="st">&quot;line&quot;</span>, ax<span class="op">=</span>axes[<span class="dv">0</span>], color<span class="op">=</span>colors)</span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> add_bias:</span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>        df_Ris_with_bias.plot(kind<span class="op">=</span><span class="st">&quot;line&quot;</span>, ax<span class="op">=</span>axes[<span class="dv">0</span>], linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>, color<span class="op">=</span>colors)</span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>    df_regrets.plot(kind<span class="op">=</span><span class="st">&quot;line&quot;</span>, ax<span class="op">=</span>axes[<span class="dv">1</span>])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The vaccin used does not changes because the best vaccin is way much too good.</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>plot_a_simulation(MAB<span class="op">=</span>MABs[<span class="dv">0</span>], add_bias<span class="op">=</span><span class="va">False</span>, proba_take_best_vaccin<span class="op">=</span><span class="dv">1</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Immunity rates : [0.553, 0.953, 0.036, 0.185, 0.373]
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_76ea04d0b7754d65a460d899f4267a28/e265e2df06db38428d81f964121b972fa15b29b7.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_custom_arms(min_rate : <span class="bu">float</span>, diff_rate : <span class="bu">float</span>, n_arms : <span class="bu">int</span> <span class="op">=</span> <span class="dv">5</span>):</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>    MAB <span class="op">=</span> generate_arms(n_arms)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> k, arm <span class="kw">in</span> <span class="bu">enumerate</span>(MAB):</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>        arm.immunity_rate <span class="op">=</span> torch.Tensor([min_rate <span class="op">+</span> diff_rate <span class="op">*</span> k])</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> MAB</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The immunity rates are very close so each run change a lot the curves because 50 patients for the exploration is too low.</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>MAB <span class="op">=</span> generate_custom_arms(<span class="fl">0.3</span>, <span class="fl">0.01</span>)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>plot_a_simulation(MAB<span class="op">=</span>MAB, add_bias<span class="op">=</span><span class="va">False</span>, proba_take_best_vaccin<span class="op">=</span><span class="dv">1</span>, n_patients_exploitation<span class="op">=</span><span class="dv">5000</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Immunity rates : [0.3, 0.31, 0.32, 0.33, 0.34]
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_76ea04d0b7754d65a460d899f4267a28/2570d065db725d7ac99b33f901be93113158e198.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em></p>
+<p>When the best vaccin is found, the regret does not grow too much.
+When it is not found, the regret grows infinitely.</p>
+</div>
+<div class="cell markdown">
+<p><strong>Q5. On étudie maintenant l'influence de la taille du training
+set <span class="math inline"><em>N</em></span>. On considère que N+M
+est une constante, puis on fait varier N entre K et M. Calculez le
+regret pour ces différentes tailles du training set différents MAB et
+representez le regret moyen, le regret min et max (vous devriez trouver
+une courbe en U ou en V pour le regret moyen). Quelle est la taille
+optimale du training set ?</strong></p>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>O <span class="op">=</span> N <span class="op">+</span> M</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>K <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>MAB <span class="op">=</span> generate_custom_arms(<span class="fl">.3</span>, <span class="fl">0.01</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>list_min_max_mean <span class="op">=</span> []</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> nb_patiens_exploration <span class="kw">in</span> tqdm(<span class="bu">range</span>(K, O)):</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>    nb_patiens_exploitation <span class="op">=</span> O <span class="op">-</span> nb_patiens_exploration</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>    _, _, last_regrets <span class="op">=</span> simulation_update_immune_rate(MAB, nb_patiens_exploration, nb_patiens_exploitation, add_bias<span class="op">=</span><span class="va">False</span>, proba_take_best_vaccin<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>    list_min_max_mean.append((last_regrets.<span class="bu">min</span>().item(), last_regrets.<span class="bu">max</span>().item(), last_regrets.mean().item()))</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>list_min_max_mean</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;ee25637bc85b474eb9cfa4f4072b3a97&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output execute_result" data-execution_count="31">
+<pre><code>[(-1.5999999046325684, 37.30000305175781, 19.939266204833984),
+ (-16.139999389648438, 5.1399993896484375, -5.156984329223633),
+ (-6.680000305175781, 12.580001831054688, 2.1706089973449707),
+ (-2.520000457763672, 28.900009155273438, 11.415166854858398),
+ (-2.5999999046325684, 25.94000244140625, 16.84979820251465),
+ (-0.5199999809265137, 14.05999755859375, 6.6311116218566895),
+ (-16.05999755859375, 0.4399986267089844, -7.728755474090576),
+ (-18.759994506835938, 1.1999998092651367, -8.925760269165039),
+ (-16.139999389648438, 0.039999961853027344, -9.949681282043457),
+ (-3.7200002670288086, 22.1199951171875, 9.090374946594238),
+ (-16.479995727539062, 3.940000534057617, -4.330466270446777),
+ (-12.279998779296875, 8.82000732421875, -2.7822086811065674),
+ (-1.9599990844726562, 24.360000610351562, 12.247167587280273),
+ (-1.2799999713897705, 22.8800048828125, 11.222783088684082),
+ (-5.220001220703125, 11.460006713867188, 2.8995113372802734),
+ (-4.319999694824219, 15.199996948242188, 3.7794349193573),
+ (-1.4200000762939453, 22.1199951171875, 13.402458190917969),
+ (0.3400000035762787, 15.099998474121094, 6.606137275695801),
+ (-9.55999755859375, 6.8600006103515625, -1.8604923486709595),
+ (-5.979999542236328, 14.139999389648438, -0.46513211727142334),
+ (-11.540000915527344, 0.5, -5.258094310760498),
+ (-1.779998779296875, 15.160003662109375, 4.055344581604004),
+ (0.019999980926513672, 23.779998779296875, 14.204283714294434),
+ (-26.6199951171875, 0.6800000071525574, -15.509540557861328),
+ (-2.8600006103515625, 30.540008544921875, 15.57877254486084),
+ (-11.800003051757812, 1.760000228881836, -5.847306728363037),
+ (-6.439998626708984, 4.5200042724609375, 0.05896049737930298),
+ (-2.5799999237060547, 12.540008544921875, 4.666294097900391),
+ (-2.1000003814697266, 18.080001831054688, 5.982631683349609),
+ (-3.8400001525878906, 8.759994506835938, 0.9384505152702332),
+ (-24.899993896484375, 1.8000001907348633, -9.780970573425293),
+ (-2.779998779296875, 16.279998779296875, 5.5013628005981445),
+ (-18.699996948242188, 4.400001525878906, -3.0430009365081787),
+ (-3.9199981689453125, 9.239997863769531, 3.352579355239868),
+ (-2.5999999046325684, 20.740005493164062, 8.470529556274414),
+ (-4.199999809265137, 18.05999755859375, 4.575883388519287),
+ (-4.21999979019165, 11.580001831054688, 3.9750499725341797),
+ (-4.2599945068359375, 6.040000915527344, 1.6855127811431885),
+ (-4.700000762939453, 15.94000244140625, 6.474400043487549),
+ (0.3400000035762787, 27.040008544921875, 16.512136459350586),
+ (-9.240005493164062, 6.319999694824219, -0.8611871600151062),
+ (-12.580001831054688, 2.440000057220459, -5.354364395141602),
+ (-10.1199951171875, 6.319999694824219, -2.1291444301605225),
+ (-13.580001831054688, -0.3199920654296875, -6.796772003173828),
+ (-2.8600001335144043, 28.82000732421875, 10.43780517578125),
+ (0.279998779296875, 13.220001220703125, 7.316000938415527),
+ (-18.300003051757812, 0.3400000035762787, -9.80761432647705),
+ (-3.3600006103515625, 15.979995727539062, 5.962530612945557),
+ (-22.55999755859375, 3.0999999046325684, -10.301769256591797),
+ (-0.9200000762939453, 23.479995727539062, 11.959758758544922),
+ (-2.739999771118164, 28.339996337890625, 11.596769332885742),
+ (-2.5199999809265137, 30.540008544921875, 12.481986045837402),
+ (-1.1800003051757812, 13.540008544921875, 5.890751361846924),
+ (-1.619999885559082, 26.779998779296875, 13.07829475402832),
+ (-8.360000610351562, 2.940000534057617, -1.8732376098632812),
+ (-0.2799999713897705, 15.900009155273438, 8.506734848022461),
+ (-11.220001220703125, 15.0, 0.9380377531051636),
+ (0.3400000035762787, 14.759994506835938, 9.068525314331055),
+ (-0.6599999666213989, 23.259994506835938, 11.918933868408203),
+ (-0.9800000190734863, 20.680007934570312, 11.405228614807129),
+ (0.3400000035762787, 30.900009155273438, 13.199382781982422),
+ (0.3400000035762787, 18.55999755859375, 7.854959487915039),
+ (-8.139999389648438, 7.8600006103515625, 2.4352805614471436),
+ (-0.5999984741210938, 9.900001525878906, 4.315394878387451),
+ (-2.0199995040893555, 13.520004272460938, 6.715468883514404),
+ (-0.2799999713897705, 26.44000244140625, 12.988751411437988),
+ (-6.520000457763672, 10.040008544921875, 1.4225478172302246),
+ (-6.619998931884766, 7.5200042724609375, 1.139205813407898),
+ (-4.519996643066406, 13.82000732421875, 3.377401113510132),
+ (-13.880001068115234, 0.7000000476837158, -7.548654079437256),
+ (-2.9000000953674316, 10.779998779296875, 4.728422164916992),
+ (-1.2599999904632568, 13.259994506835938, 8.209917068481445),
+ (-9.699996948242188, 2.479999542236328, -2.6123881340026855),
+ (-9.199996948242188, 4.459999084472656, -1.0984737873077393),
+ (-0.3199999928474426, 15.699996948242188, 7.43745231628418),
+ (-16.539993286132812, 1.3600000143051147, -9.1278715133667),
+ (-0.3199999928474426, 15.860000610351562, 7.878678798675537),
+ (-7.520000457763672, 5.099998474121094, -0.33410170674324036),
+ (-7.3600006103515625, 11.720001220703125, 1.3565746545791626),
+ (-1.05999755859375, 14.419998168945312, 4.349228382110596),
+ (-8.060001373291016, 7.100006103515625, 0.8780653476715088),
+ (-8.699996948242188, 3.279998779296875, -2.6374993324279785),
+ (-0.6599999666213989, 9.660003662109375, 5.497711658477783),
+ (-12.080001831054688, 2.820000171661377, -5.75753116607666),
+ (-1.1599998474121094, 19.680007934570312, 8.357789039611816),
+ (-6.6199951171875, 5.340000152587891, 1.1091313362121582),
+ (-2.6199951171875, 8.520000457763672, 1.6270159482955933),
+ (-3.8999996185302734, 12.319999694824219, 4.191572666168213),
+ (-5.9799957275390625, 9.220001220703125, 1.4486223459243774),
+ (-10.319992065429688, 5.479999542236328, -0.049034252762794495),
+ (0.019999980926513672, 17.62000274658203, 11.555166244506836),
+ (-0.6599999666213989, 17.419998168945312, 8.442511558532715),
+ (-11.319992065429688, 2.2799997329711914, -5.583796501159668),
+ (-0.9600000381469727, 24.0, 9.3241605758667),
+ (-0.6599999666213989, 19.339996337890625, 8.682573318481445),
+ (-2.3600006103515625, 7.540008544921875, 2.3455567359924316),
+ (-5.159999847412109, 12.459999084472656, 4.099110126495361),
+ (-0.5399999618530273, 16.779998779296875, 9.408125877380371),
+ (-14.580001831054688, 1.0199999809265137, -6.750514030456543),
+ (-13.94000244140625, 0.3400000035762787, -6.447218894958496),
+ (-2.899993896484375, 4.840003967285156, 0.8649446964263916),
+ (-7.4199981689453125, 7.600006103515625, -1.14729642868042),
+ (-5.280000686645508, 13.800003051757812, 5.039819717407227),
+ (-4.659999847412109, 6.340003967285156, 0.590543806552887),
+ (-7.720001220703125, 5.9199981689453125, -1.6899312734603882),
+ (-10.339996337890625, 4.340000152587891, -1.9913628101348877),
+ (-4.579998016357422, 7.920000076293945, 1.597267508506775),
+ (-0.3199999928474426, 13.800003051757812, 9.134567260742188),
+ (-0.7399997711181641, 9.720001220703125, 4.343296051025391),
+ (-3.259999990463257, 21.540008544921875, 7.12945032119751),
+ (-4.680000305175781, 3.6200027465820312, -0.31218311190605164),
+ (-0.4199981689453125, 13.279998779296875, 5.6688947677612305),
+ (-15.959991455078125, 2.3400001525878906, -5.256950855255127),
+ (-2.7399978637695312, 11.779998779296875, 2.913241386413574),
+ (-2.5799999237060547, 23.860000610351562, 11.855314254760742),
+ (-3.6399993896484375, 5.700000762939453, 1.1537216901779175),
+ (-1.5799999237060547, 33.100006103515625, 15.519579887390137),
+ (-3.1599960327148438, 8.839996337890625, 1.390281319618225),
+ (-2.6399993896484375, 8.94000244140625, 3.570305347442627),
+ (-9.239997863769531, 3.3999996185302734, -3.719858407974243),
+ (-0.25999999046325684, 21.5, 10.057648658752441),
+ (0.3400000035762787, 22.6199951171875, 12.794812202453613),
+ (-1.940000057220459, 15.540000915527344, 6.812861442565918),
+ (-1.8199996948242188, 8.639999389648438, 3.201470136642456),
+ (-4.799999237060547, 13.779998779296875, 3.497720718383789),
+ (-7.879997253417969, 0.7200000286102295, -4.051427841186523),
+ (-8.5, 8.460006713867188, 0.9155138731002808),
+ (-4.840000152587891, 6.180000305175781, 1.026651382446289),
+ (-7.280000686645508, 7.120002746582031, 0.14153552055358887),
+ (-1.5799999237060547, 14.759994506835938, 5.084712028503418),
+ (0.3400000035762787, 26.399993896484375, 16.61879539489746),
+ (-1.4599990844726562, 11.840003967285156, 4.784299850463867),
+ (-6.09999942779541, 6.399993896484375, 2.1984026432037354),
+ (-0.4200000762939453, 15.94000244140625, 8.787670135498047),
+ (0.019999980926513672, 13.740005493164062, 7.555816650390625),
+ (-0.8199996948242188, 19.419998168945312, 8.643171310424805),
+ (-2.9000000953674316, 18.44000244140625, 8.75134563446045),
+ (-5.659999847412109, 17.720001220703125, 6.454020023345947),
+ (-8.819999694824219, 6.6999969482421875, -1.6866823434829712),
+ (-2.520000457763672, 11.919998168945312, 4.478177547454834),
+ (0.059999942779541016, 20.660003662109375, 11.437284469604492),
+ (-9.200000762939453, 1.94000244140625, -3.3579201698303223),
+ (-7.099998474121094, 7.119998931884766, 0.2159809023141861),
+ (-3.2399978637695312, 8.120002746582031, 1.5871150493621826),
+ (-2.8199996948242188, 17.94000244140625, 5.753965377807617),
+ (-1.9800000190734863, 9.199996948242188, 4.6800007820129395),
+ (-3.8999996185302734, 22.32000732421875, 6.137845039367676),
+ (-6.579999923706055, 6.120002746582031, -0.8006525039672852),
+ (-0.25999999046325684, 14.819999694824219, 6.848917484283447),
+ (0.09999990463256836, 32.73999786376953, 21.13899040222168),
+ (-7.0, 1.4000000953674316, -3.2875943183898926),
+ (-4.039999961853027, 12.860000610351562, 3.566244602203369),
+ (-0.940000057220459, 23.919998168945312, 12.8756742477417),
+ (-16.199996948242188, 3.90000057220459, -6.371121883392334),
+ (-14.319999694824219, -0.6399999856948853, -9.469974517822266),
+ (-7.8600006103515625, 4.100000381469727, -1.8248710632324219),
+ (-5.939998626708984, 11.099998474121094, 1.4876614809036255),
+ (-2.09999942779541, 21.0, 11.985671997070312),
+ (-6.7599945068359375, 4.239999771118164, -0.3707486391067505),
+ (-12.139999389648438, 2.720001220703125, -3.487201690673828),
+ (-5.959999084472656, 4.659999847412109, -1.226752519607544),
+ (-0.6599999666213989, 33.86000061035156, 20.851043701171875),
+ (-10.860000610351562, 1.7000000476837158, -5.751330852508545),
+ (-12.019996643066406, 4.579999923706055, -4.1727213859558105),
+ (-4.779998779296875, 6.540008544921875, 1.0003682374954224),
+ (-8.65999984741211, 1.0400009155273438, -3.8378937244415283),
+ (-8.580001831054688, 8.80000114440918, -1.5002630949020386),
+ (-3.1999998092651367, 24.840003967285156, 10.083440780639648),
+ (-0.6599999666213989, 10.5, 4.602176189422607),
+ (-2.1399993896484375, 13.840003967285156, 4.16180944442749),
+ (-8.299999237060547, 18.480003356933594, 4.458667755126953),
+ (-2.05999755859375, 12.480003356933594, 2.402407169342041),
+ (-0.01999950408935547, 23.55999755859375, 9.143004417419434),
+ (-0.5199999809265137, 15.480003356933594, 6.5175275802612305),
+ (-7.8600006103515625, 9.880001068115234, 0.6901355385780334),
+ (-0.6599999666213989, 15.900001525878906, 5.532162666320801),
+ (-7.0800018310546875, 7.1399993896484375, -0.15961992740631104),
+ (-0.5999999046325684, 14.120002746582031, 5.9800004959106445),
+ (-2.880000114440918, 15.599998474121094, 7.320218563079834),
+ (-2.299999952316284, 10.05999755859375, 5.526612758636475),
+ (-2.0999984741210938, 20.419998168945312, 4.652877330780029),
+ (-4.200000762939453, 11.760002136230469, 2.959341526031494),
+ (0.3400000035762787, 20.419998168945312, 12.441983222961426),
+ (-10.779998779296875, 1.0399999618530273, -5.002706527709961),
+ (-1.5, 9.900001525878906, 3.323934316635132),
+ (-1.4799995422363281, 16.040000915527344, 7.295000076293945),
+ (-5.159999847412109, 4.099998474121094, -1.017269492149353),
+ (-6.759998321533203, 17.68000030517578, 2.499274492263794),
+ (-2.220001220703125, 5.720001220703125, 1.347395658493042),
+ (-11.200000762939453, 2.3600006103515625, -4.217302322387695),
+ (-0.6599999666213989, 18.139999389648438, 11.612957954406738),
+ (-9.080001831054688, 6.799999237060547, -0.3081914186477661),
+ (-3.6599960327148438, 10.119998931884766, 4.446290016174316),
+ (0.3400000035762787, 18.459999084472656, 9.484432220458984),
+ (-0.6599999666213989, 23.580001831054688, 11.612080574035645),
+ (-3.5999984741210938, 9.720001220703125, 4.007143020629883),
+ (-1.940000057220459, 14.120002746582031, 5.743553161621094),
+ (-7.579999923706055, 0.7000000476837158, -3.6412642002105713),
+ (-0.9800000190734863, 18.900001525878906, 8.416484832763672),
+ (-2.619999885559082, 18.919998168945312, 12.573816299438477),
+ (-7.4799957275390625, 3.1800003051757812, -3.1278257369995117),
+ (-5.260000228881836, 9.919998168945312, 2.740116596221924),
+ (-0.6000003814697266, 17.62000274658203, 6.777376651763916),
+ (-7.6999969482421875, 1.6000003814697266, -2.5964322090148926),
+ (-4.599998474121094, 10.8800048828125, 2.990440607070923),
+ (-13.479995727539062, 5.340000152587891, -4.10352897644043),
+ (-16.360000610351562, -0.3199999928474426, -10.987610816955566),
+ (-7.839996337890625, 1.6599998474121094, -1.7753247022628784),
+ (-15.459999084472656, 3.1800003051757812, -4.554835796356201),
+ (-6.079999923706055, 8.55999755859375, 1.167976975440979),
+ (-10.699996948242188, 4.619999885559082, -4.247163772583008),
+ (-1.880000114440918, 14.360000610351562, 7.3931145668029785),
+ (-5.219999313354492, 6.260002136230469, 0.1013219803571701),
+ (-2.0400009155273438, 6.700004577636719, 2.5437357425689697),
+ (-2.619999885559082, 11.739997863769531, 3.941511392593384),
+ (-1.559999942779541, 15.200004577636719, 8.560909271240234),
+ (-14.239997863769531, 0.8000001907348633, -7.802734375),
+ (-6.0199995040893555, 13.099998474121094, 3.8080496788024902),
+ (-0.11999893188476562, 16.18000030517578, 7.007706642150879),
+ (-21.839996337890625, 2.4600000381469727, -6.6400604248046875),
+ (-9.200000762939453, 1.0199999809265137, -5.032307147979736),
+ (-2.1399993896484375, 7.760002136230469, 2.5493834018707275),
+ (-6.439998626708984, 1.7399978637695312, -1.9881107807159424),
+ (-1.2799999713897705, 13.340003967285156, 4.096336364746094),
+ (-15.040000915527344, 1.0199999809265137, -9.356573104858398),
+ (-0.2799999713897705, 12.720001220703125, 6.6918745040893555),
+ (-0.2999999523162842, 7.5200042724609375, 3.8106589317321777),
+ (-1.5400009155273438, 9.200000762939453, 2.764591932296753),
+ (-1.239999771118164, 10.760002136230469, 3.9748270511627197),
+ (-0.940000057220459, 12.44000244140625, 5.022912979125977),
+ (0.3400000035762787, 21.580001831054688, 12.034287452697754),
+ (-4.6999969482421875, 4.859999656677246, 0.2538222670555115),
+ (-0.6599999666213989, 14.05999755859375, 6.440703868865967),
+ (-2.09999942779541, 11.280000686645508, 4.421538829803467),
+ (-5.4199981689453125, 8.680000305175781, 2.814920425415039),
+ (-0.3199999928474426, 13.599998474121094, 6.137742519378662),
+ (-6.340000152587891, 4.5200042724609375, -0.5750802755355835),
+ (0.220001220703125, 10.459999084472656, 4.189091682434082),
+ (-3.260000228881836, 9.400001525878906, 3.3665153980255127),
+ (-5.479999542236328, 11.959999084472656, 2.2618958950042725),
+ (0.3400000035762787, 11.760002136230469, 4.8462300300598145),
+ (-7.399999618530273, 7.5200042724609375, -1.0940784215927124),
+ (-6.1399993896484375, 9.040000915527344, 1.1717497110366821),
+ (-5.979999542236328, 4.299999237060547, -0.42046302556991577),
+ (-7.279998779296875, 6.5800018310546875, -0.7065110802650452),
+ (-13.699996948242188, 5.840000152587891, -6.426666259765625),
+ (-3.119999885559082, 10.120002746582031, 3.397994041442871),
+ (-1.5199999809265137, 11.400001525878906, 5.454161643981934),
+ (-3.5800018310546875, 8.980003356933594, 0.734074592590332),
+ (-1.4799995422363281, 10.94000244140625, 4.496757507324219),
+ (-1.1399993896484375, 12.760002136230469, 6.116610527038574),
+ (-10.399999618530273, 5.620002746582031, -4.081291675567627),
+ (-9.700000762939453, 3.6200027465820312, -2.4056649208068848),
+ (-7.180000305175781, -0.3199999928474426, -3.5735607147216797),
+ (-19.779998779296875, 0.7400000095367432, -8.744878768920898),
+ (-11.05999755859375, 3.5600013732910156, -3.3748269081115723),
+ (-3.8400001525878906, 5.520000457763672, 0.4522496461868286),
+ (-4.21999979019165, 5.9199981689453125, 0.859167218208313),
+ (-5.520000457763672, 5.44000244140625, 0.38857194781303406),
+ (-2.0799999237060547, 18.360000610351562, 8.129161834716797),
+ (0.3400000035762787, 14.180000305175781, 7.865614891052246),
+ (-3.479999542236328, 5.560001373291016, 1.8725355863571167),
+ (-6.399999618530273, 9.879997253417969, 0.6722267270088196),
+ (-6.739997863769531, 2.0400009155273438, -2.308439016342163),
+ (-10.0, 0.36000001430511475, -5.405195236206055),
+ (-1.5, 9.300000190734863, 4.137857913970947),
+ (-2.5, 4.379997253417969, 1.3132622241973877),
+ (0.019999980926513672, 17.520004272460938, 7.850863456726074),
+ (-1.94000244140625, 8.360000610351562, 3.386354446411133),
+ (-5.119998931884766, 2.5, -1.3302892446517944),
+ (-0.3199999928474426, 13.5, 7.000000476837158),
+ (0.3400000035762787, 21.23999786376953, 13.680658340454102),
+ (-4.0, 2.719999313354492, -0.5335526466369629),
+ (-6.659999847412109, 1.1399993896484375, -2.141469955444336),
+ (-4.840000152587891, 8.080001831054688, 2.0481185913085938),
+ (-2.9600000381469727, 13.099998474121094, 7.155186176300049),
+ (-0.9800000190734863, 5.5, 2.665800094604492),
+ (-7.4199981689453125, 2.119999885559082, -3.3520889282226562),
+ (-1.2599999904632568, 11.0, 5.79970121383667),
+ (-10.540000915527344, 2.1800003051757812, -4.617518424987793),
+ (-10.579998016357422, -0.6599999666213989, -6.323395252227783),
+ (-1.619999885559082, 9.720001220703125, 3.409849166870117),
+ (-0.6599999666213989, 10.400001525878906, 4.366692543029785),
+ (-13.419998168945312, 0.7200000286102295, -5.4541215896606445),
+ (-2.059999465942383, 9.05999755859375, 3.455709457397461),
+ (0.019999980926513672, 10.619998931884766, 6.027693271636963),
+ (-5.760002136230469, 3.560000419616699, -0.9544396996498108),
+ (-2.299999952316284, 8.580001831054688, 2.9873647689819336),
+ (-1.3199999332427979, 12.540000915527344, 8.560389518737793),
+ (-0.9600000381469727, 6.540000915527344, 3.209531784057617),
+ (-3.079998016357422, 4.680000305175781, 1.3396083116531372),
+ (-1.0399999618530273, 15.680000305175781, 6.71220588684082),
+ (-6.219999313354492, 19.68000030517578, 4.6938347816467285),
+ (-5.260002136230469, 3.880000114440918, -0.18841221928596497),
+ (-3.1599998474121094, 5.180000305175781, -0.20780827105045319),
+ (-1.5, 10.94000244140625, 5.758000373840332),
+ (-4.779998779296875, 4.560001373291016, 0.1064261868596077),
+ (-0.6599999666213989, 9.319999694824219, 3.757420063018799),
+ (-0.6399999856948853, 13.44000244140625, 7.107368469238281),
+ (-5.120002746582031, 4.119998931884766, -0.9937393069267273),
+ (-2.5, 7.5800018310546875, 2.1914291381835938),
+ (-6.119999885559082, 2.5200042724609375, -1.9401633739471436),
+ (-0.3199999928474426, 12.65999984741211, 8.274239540100098),
+ (0.3400000035762787, 8.880001068115234, 5.330661773681641),
+ (-6.219999313354492, 12.94000244140625, 4.090207576751709),
+ (0.019999980926513672, 12.599998474121094, 6.340834140777588),
+ (-2.559999942779541, 5.260002136230469, 0.7372390031814575),
+ (-0.6599999666213989, 9.919998168945312, 5.3064703941345215),
+ (-5.659999847412109, 5.879997253417969, -1.9703792333602905),
+ (-0.6399999856948853, 4.619999885559082, 2.112034320831299),
+ (-7.4199981689453125, 1.7200000286102295, -3.058722734451294),
+ (-0.940000057220459, 13.980003356933594, 7.69359016418457),
+ (-4.020000457763672, 6.6399993896484375, 1.6855798959732056),
+ (-4.420000076293945, 16.12000274658203, 3.1401729583740234),
+ (-7.0, 3.8999996185302734, -1.4864064455032349),
+ (-6.1399993896484375, 3.2000045776367188, -0.8256517052650452),
+ (-4.979999542236328, 5.44000244140625, 0.5759829878807068),
+ (-5.5, 2.979999542236328, -1.1796486377716064),
+ (-4.880001068115234, 2.0800018310546875, -1.5263432264328003),
+ (0.3400000035762787, 12.5, 6.87761116027832),
+ (-9.939998626708984, 0.3400000035762787, -5.406665802001953),
+ (-1.2799999713897705, 7.060001373291016, 3.709821939468384),
+ (-2.719999313354492, 7.44000244140625, 2.192107915878296),
+ (-2.5999999046325684, 8.980003356933594, 1.1172075271606445),
+ (-0.2999999523162842, 16.459999084472656, 7.690227031707764),
+ (0.3400000035762787, 11.779998779296875, 5.05181884765625),
+ (-3.5199999809265137, 8.119998931884766, 2.368036985397339),
+ (-7.659999847412109, 2.9200000762939453, -3.136971950531006),
+ (-0.9800000190734863, 10.340003967285156, 3.972442388534546),
+ (-1.7199993133544922, 5.599998474121094, 1.53351891040802),
+ (-5.399999618530273, 10.080001831054688, 0.6827910542488098),
+ (-4.460000038146973, 10.400001525878906, 2.4238321781158447),
+ (-9.65999984741211, -0.3199999928474426, -5.732675552368164),
+ (0.3400000035762787, 19.720001220703125, 9.162830352783203),
+ (-0.6599999666213989, 13.420001983642578, 6.973649501800537),
+ (-1.3199996948242188, 9.400001525878906, 2.760476589202881),
+ (-2.359999656677246, 4.6399993896484375, 0.408134400844574),
+ (-12.15999984741211, 1.7000000476837158, -5.5084614753723145),
+ (-0.9600000381469727, 10.119998931884766, 4.186087131500244),
+ (-3.9599990844726562, 6.159999847412109, 0.9521363377571106),
+ (-6.6999969482421875, 3.479999542236328, -0.5702434778213501),
+ (-2.1800003051757812, 4.479999542236328, 0.977451503276825),
+ (-1.1999998092651367, 15.94000244140625, 6.226798057556152),
+ (0.019999980926513672, 11.540000915527344, 6.08425760269165),
+ (-7.040000915527344, 1.9200000762939453, -1.510745882987976),
+ (-4.880001068115234, 2.1000003814697266, -0.36499959230422974),
+ (-1.1999998092651367, 9.980003356933594, 4.025125980377197),
+ (-5.720001220703125, 2.799999237060547, -1.7356562614440918),
+ (-0.9800000190734863, 16.279998779296875, 9.939188957214355),
+ (-1.9800000190734863, 4.459999084472656, 1.612449288368225),
+ (-1.4399995803833008, 4.8600006103515625, 1.473846435546875),
+ (-3.259998321533203, 3.6200027465820312, -0.30360791087150574),
+ (-2.8600006103515625, 6.180000305175781, 1.9281867742538452),
+ (-2.720001220703125, 2.1399993896484375, -0.10666629672050476),
+ (-1.4399995803833008, 7.799999237060547, 3.7028279304504395),
+ (-6.840000152587891, 3.760000228881836, -1.8352627754211426),
+ (0.3400000035762787, 17.200000762939453, 9.400529861450195),
+ (0.3400000035762787, 9.319999694824219, 5.449149131774902),
+ (-0.2199997901916504, 11.860000610351562, 4.59101676940918),
+ (-1.3199999332427979, 13.200000762939453, 7.1717209815979),
+ (-0.3199999928474426, 11.880001068115234, 4.987567901611328),
+ (-6.159999847412109, 9.299999237060547, 1.7163046598434448),
+ (-7.779998779296875, 3.3999996185302734, -2.277376651763916),
+ (-6.5, 1.8000011444091797, -1.99439537525177),
+ (-5.340000152587891, 3.5400009155273438, -1.5903862714767456),
+ (-1.9199981689453125, 3.260000228881836, 0.7588892579078674),
+ (-7.819999694824219, 0.5, -3.7631282806396484),
+ (-3.5399999618530273, 13.420001983642578, 4.5760674476623535),
+ (-5.539999008178711, -0.6599999666213989, -3.288022518157959),
+ (-1.5799980163574219, 5.719999313354492, 1.5615912675857544),
+ (-2.539999008178711, 5.479999542236328, 1.080000400543213),
+ (-1.6399999856948853, 17.779998779296875, 8.727012634277344),
+ (-1.2999999523162842, 4.1399993896484375, 1.8343355655670166),
+ (-3.9199981689453125, 5.040000915527344, 1.2879072427749634),
+ (0.3400000035762787, 5.900001525878906, 3.6727490425109863),
+ (-6.880001068115234, 2.619999885559082, -1.2064701318740845),
+ (-12.020000457763672, 1.5399999618530273, -5.052662372589111),
+ (-1.8400001525878906, 8.119998931884766, 2.3847622871398926),
+ (-2.4200000762939453, 3.5799999237060547, 1.278563141822815),
+ (-0.6599999666213989, 5.520000457763672, 2.600843667984009),
+ (-3.299999237060547, 7.9800004959106445, 1.541212558746338),
+ (-4.759998321533203, 4.880001068115234, -0.11463381350040436),
+ (-1.6399999856948853, 5.159999847412109, 2.2603683471679688),
+ (-2.4399986267089844, 6.300000190734863, 2.1112349033355713),
+ (0.3400000035762787, 16.740001678466797, 10.055527687072754),
+ (-1.3199999332427979, 5.6399993896484375, 2.3137502670288086),
+ (-3.579998016357422, 5.559999465942383, 0.7220128178596497),
+ (-3.8400001525878906, 1.3400001525878906, -1.2737972736358643),
+ (-0.2199997901916504, 8.700000762939453, 2.8472611904144287),
+ (-2.439999580383301, 4.439998626708984, 1.0489745140075684),
+ (-5.5, 0.8000011444091797, -2.176774024963379),
+ (-0.3199999928474426, 10.680000305175781, 5.401947975158691),
+ (-3.299999952316284, 5.659999847412109, 1.3564709424972534),
+ (-1.5799999237060547, 7.340000152587891, 1.1415791511535645),
+ (-0.25999999046325684, 17.31999969482422, 9.773774147033691),
+ (-2.7200002670288086, 10.819999694824219, 3.370000123977661),
+ (-1.4200000762939453, 4.659999847412109, 1.6342284679412842),
+ (-0.6599999666213989, 5.640000343322754, 2.7759461402893066),
+ (-5.979999542236328, 5.5, -0.914829671382904),
+ (-0.9600000381469727, 6.6399993896484375, 2.1201372146606445),
+ (-2.3199996948242188, 5.480000019073486, 2.1372416019439697),
+ (-1.7200002670288086, 7.939998626708984, 0.89305579662323),
+ (-1.3999996185302734, 4.520000457763672, 1.38909113407135),
+ (-1.559999942779541, 4.279998779296875, 0.9085919260978699),
+ (-3.8999996185302734, 1.1599998474121094, -1.0373046398162842),
+ (-9.680000305175781, 0.3400000035762787, -4.744285583496094),
+ (-2.0799999237060547, 4.0800018310546875, 1.1381298303604126),
+ (-0.45999908447265625, 5.920001983642578, 2.622753858566284),
+ (-3.4600000381469727, 3.4599990844726562, -0.7516785860061646),
+ (-2.5, 2.6000003814697266, -0.2467644363641739),
+ (-5.799999237060547, 5.579999923706055, 0.2607409954071045),
+ (-5.439999580383301, 2.9200000762939453, -1.1694027185440063),
+ (-7.6399993896484375, 0.38000011444091797, -5.250075340270996),
+ (-4.619999885559082, 0.1399993896484375, -2.0945451259613037),
+ (-0.6399999856948853, 7.8600006103515625, 3.2186262607574463),
+ (-5.540000915527344, 4.520000457763672, -0.03769208490848541),
+ (0.3400000035762787, 11.5, 5.720154762268066),
+ (-0.2199993133544922, 6.840000152587891, 1.9456251859664917),
+ (-0.6599999666213989, 14.180000305175781, 6.169449329376221),
+ (-1.239999771118164, 6.200000762939453, 2.7646031379699707),
+ (-4.579999923706055, 0.3400000035762787, -2.419999837875366),
+ (-7.159999847412109, 2.1599998474121094, -3.6290318965911865),
+ (-6.739999771118164, 0.7000000476837158, -4.3346333503723145),
+ (-1.239999771118164, 6.319999694824219, 2.9181969165802),
+ (-0.3199999928474426, 8.380001068115234, 3.8391735553741455),
+ (-4.3600006103515625, 2.799999237060547, -1.021666407585144),
+ (-0.2999999523162842, 9.299999237060547, 5.265545845031738),
+ (-0.2999999523162842, 5.279999732971191, 2.4842376708984375),
+ (-2.179999828338623, 5.020000457763672, 1.5129916667938232),
+ (-1.260000228881836, 4.299999237060547, 1.4072415828704834),
+ (-1.2799999713897705, 5.079999923706055, 2.3895657062530518),
+ (-4.420000076293945, 4.960000038146973, 0.014912553131580353),
+ (-5.079999923706055, 3.4000015258789062, -0.7881413102149963),
+ (-5.559999465942383, 1.1599998474121094, -2.495356798171997),
+ (-6.039999008178711, 3.059999942779541, -1.3113510608673096),
+ (-4.539999008178711, 3.3400001525878906, -1.1209088563919067),
+ (-0.7600002288818359, 4.380001068115234, 1.9018352031707764),
+ (-5.119999885559082, 2.3800010681152344, -2.3218514919281006),
+ (-3.760000228881836, 4.380001068115234, -0.2661680281162262),
+ (-5.420000076293945, 0.6800000071525574, -2.7533960342407227),
+ (0.11999988555908203, 10.920000076293945, 4.858095645904541),
+ (-2.1000003814697266, 3.0400009155273438, 0.4653847813606262),
+ (0.3400000035762787, 13.299999237060547, 6.777087688446045),
+ (-1.2999999523162842, 8.920000076293945, 5.490392208099365),
+ (-4.079999923706055, 0.18000030517578125, -1.6104949712753296),
+ (-6.319999694824219, 1.4000000953674316, -3.1700000762939453),
+ (0.3400000035762787, 7.079999923706055, 3.7979798316955566),
+ (-1.7799997329711914, 3.520000457763672, 0.7891838550567627),
+ (-0.6599999666213989, 9.920000076293945, 5.0620622634887695),
+ (-0.619999885559082, 6.960000991821289, 3.3129167556762695),
+ (-9.079999923706055, 2.7800002098083496, -2.0063157081604004),
+ (-5.760000228881836, -0.2999999523162842, -3.6797869205474854),
+ (-0.6399999856948853, 5.280000686645508, 2.60365629196167),
+ (-10.059999465942383, 0.36000001430511475, -5.113913059234619),
+ (-2.2799999713897705, 5.559999465942383, 1.11252760887146),
+ (-6.280000686645508, 0.36000001430511475, -3.418889045715332),
+ (-5.079999923706055, 0.8000001907348633, -1.9359546899795532),
+ (-0.9200000762939453, 4.840000152587891, 1.5163638591766357),
+ (-7.299999237060547, -0.2999999523162842, -4.2009196281433105),
+ (-1.5999999046325684, 4.680000305175781, 1.2202327251434326),
+ (-0.6599999666213989, 6.0, 2.5494120121002197),
+ (-10.440000534057617, -0.2999999523162842, -4.085713863372803),
+ (-0.2799999713897705, 9.220001220703125, 4.171566486358643),
+ (-1.4799995422363281, 5.880001068115234, 1.5246343612670898),
+ (-5.239999771118164, 1.0999999046325684, -1.9118516445159912),
+ (-1.539999008178711, 2.9600000381469727, 0.9825001955032349),
+ (-0.6399999856948853, 10.860000610351562, 4.941771984100342),
+ (-0.9800000190734863, 2.520000457763672, 0.4556411802768707),
+ (-0.5199999809265137, 2.020000457763672, 0.7664936780929565),
+ (-0.5, 3.520000457763672, 1.3794738054275513),
+ (-1.5799999237060547, 5.059999465942383, 1.2133334875106812),
+ (-2.739999771118164, 2.1599998474121094, -0.7770269513130188),
+ (-0.940000057220459, 3.8000011444091797, 1.7443835735321045),
+ (-0.8600006103515625, 4.279999732971191, 1.4377778768539429),
+ (-0.9800000190734863, 4.920000076293945, 2.747042179107666),
+ (-4.199999809265137, 1.3600000143051147, -2.072857141494751),
+ (-0.9600000381469727, 4.960000038146973, 2.015942335128784),
+ (-1.3199999332427979, 5.120000839233398, 1.8476473093032837),
+ (-2.6800003051757812, 2.059999942779541, -0.5295521020889282),
+ (-6.559999465942383, -0.23999977111816406, -3.291818380355835),
+ (-1.1999998092651367, 2.6000003814697266, 0.389230877161026),
+ (-4.260000228881836, 0.9400005340576172, -0.8718748092651367),
+ (0.3400000035762787, 6.600000381469727, 4.340317726135254),
+ (-0.3199999928474426, 4.579999923706055, 2.5003228187561035),
+ (-6.680000305175781, 0.7200000286102295, -2.5911471843719482),
+ (0.3400000035762787, 4.940000534057617, 2.620000123977661),
+ (0.3400000035762787, 5.059999465942383, 1.7084746360778809),
+ (-1.2799999713897705, 5.719999313354492, 2.2196552753448486),
+ (-2.6599998474121094, 1.119999885559082, -0.49087703227996826),
+ (-2.299999952316284, 2.3199996948242188, 0.17214298248291016),
+ (0.3400000035762787, 7.640000343322754, 4.483636856079102),
+ (-2.5999999046325684, 3.3600006103515625, 0.5907408595085144),
+ (-1.6999998092651367, 1.760000228881836, -0.3294338583946228),
+ (0.3400000035762787, 6.520000457763672, 4.067692279815674),
+ (-2.6399998664855957, 6.340000152587891, 1.055686354637146),
+ (-2.09999942779541, 0.3400000035762787, -0.9499999284744263),
+ (0.3400000035762787, 6.960000038146973, 3.2551021575927734),
+ (-0.9200000762939453, 4.619999885559082, 1.8925002813339233),
+ (-2.0399999618530273, 2.0399999618530273, -0.010212680324912071),
+ (-1.1999998092651367, 3.9600000381469727, 0.9682609438896179),
+ (0.019999980926513672, 4.180000305175781, 2.1311111450195312),
+ (-3.3999996185302734, 0.36000001430511475, -1.9181816577911377),
+ (-0.9600000381469727, 5.920000076293945, 3.154418706893921),
+ (-2.5799999237060547, -0.07999992370605469, -1.1899999380111694),
+ (0.3400000035762787, 5.460000038146973, 3.5302441120147705),
+ (-1.559999942779541, 0.7400000095367432, -0.37999993562698364),
+ (0.059999942779541016, 5.260000228881836, 2.2358977794647217),
+ (-0.3199999928474426, 3.1599998474121094, 1.3405263423919678),
+ (-0.6599999666213989, 2.5799999237060547, 1.3248648643493652),
+ (-1.6399999856948853, 4.239999771118164, 1.6788890361785889),
+ (-2.09999942779541, 1.0999999046325684, -0.47999992966651917),
+ (-0.2999999523162842, 4.220000267028809, 2.30294132232666),
+ (-1.5799999237060547, 0.880000114440918, -0.4321211874485016),
+ (-1.619999885559082, 0.3400000035762787, -0.7649999856948853),
+ (-3.4600000381469727, -0.2999999523162842, -1.5600001811981201),
+ (0.1399998664855957, 3.4000000953674316, 1.8366665840148926),
+ (-1.9800000190734863, 0.7800002098083496, -0.6241378784179688),
+ (-7.179999828338623, -0.6599999666213989, -4.570000171661377),
+ (-2.5799999237060547, 0.48000001907348633, -0.7955555319786072),
+ (0.3400000035762787, 2.119999885559082, 1.205384612083435),
+ (-0.9800000190734863, 2.8000001907348633, 0.8999999761581421),
+ (0.019999980926513672, 4.78000020980835, 2.6666665077209473),
+ (-1.2599999904632568, 2.0399999618530273, 0.4278261065483093),
+ (0.3400000035762787, 2.8000001907348633, 1.5463637113571167),
+ (-1.8600001335144043, 0.4200000762939453, -0.45047613978385925),
+ (-2.1999998092651367, 1.0199999809265137, -0.4299999177455902),
+ (0.3400000035762787, 3.0999999046325684, 1.9789472818374634),
+ (0.3400000035762787, 3.4000000953674316, 1.952222228050232),
+ (0.3400000035762787, 2.0799999237060547, 1.0600000619888306),
+ (-1.559999942779541, 1.380000114440918, -0.10999997705221176),
+ (0.019999980926513672, 1.4200000762939453, 0.6533333659172058),
+ (-1.9800000190734863, -0.2799999713897705, -1.0928571224212646),
+ (0.3400000035762787, 2.4200000762939453, 1.5338460206985474),
+ (-1.5999999046325684, 1.7000000476837158, 0.12666667997837067),
+ (-0.9800000190734863, 1.7400000095367432, 0.31272727251052856),
+ (-0.9800000190734863, 0.40000009536743164, -0.4299999177455902),
+ (-0.6399999856948853, 0.7200000286102295, 0.14444445073604584),
+ (-0.6399999856948853, 0.3400000035762787, -0.2199999839067459),
+ (-0.3199999928474426, 1.380000114440918, 0.5028571486473083),
+ (0.3400000035762787, 1.0399999618530273, 0.6899999976158142),
+ (-0.9800000190734863, 0.3400000035762787, -0.3799999952316284),
+ (-0.6599999666213989, 0.36000001430511475, -0.14999999105930328),
+ (-0.3199999928474426, 0.3400000035762787, 0.013333330862224102),
+ (-0.3199999928474426, 0.3400000035762787, 0.01000000536441803),
+ (0.3400000035762787, 0.3400000035762787, 0.3400000035762787)]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># convert list to dataframe</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(list_min_max_mean, columns<span class="op">=</span>[<span class="st">&quot;min&quot;</span>, <span class="st">&quot;max&quot;</span>, <span class="st">&quot;mean&quot;</span>], index<span class="op">=</span><span class="bu">list</span>(<span class="bu">range</span>(K, O)))</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="co"># plot</span></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>df.plot(kind<span class="op">=</span><span class="st">&quot;line&quot;</span>, xlabel<span class="op">=</span><span class="st">&quot;N&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="32">
+<pre><code>&lt;Axes: xlabel=&#39;N&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_76ea04d0b7754d65a460d899f4267a28/2835fbc9e2cc69baabbdf3892f83393cddf0f09d.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em></p>
+<p>The lower is the number of patients in exploration (N), the higher is
+the risk of choosing the wrong vaccin. The regret can still be low when
+N is low because the best vaccin can be found by "luck".</p>
+</div>
+<div class="cell markdown">
+<p>Q5. bis Nouvelle amélioration : à chaque nouveau patient, on choisit
+si on lui administre le meilleur vaccin avec une probabilité <span
+class="math inline"><em>ϵ</em></span> ou un vaccin aléatoire (<span
+class="math inline"><em>p</em> = 1 − <em>ϵ</em></span>). Vérifiez si
+vous obtenez un meilleur résultat avec N = 0 ou N &gt; 0. À votre avis,
+à quoi sert <span class="math inline"><em>ϵ</em></span> ?</p>
+</div>
+<div class="cell code" data-execution_count="80">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>MAB <span class="op">=</span> generate_custom_arms(min_rate<span class="op">=</span><span class="fl">0.4</span>, diff_rate<span class="op">=</span><span class="fl">0.05</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="81">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># without exploration</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>epsilon <span class="op">=</span> <span class="fl">0.9</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>plot_a_simulation(MAB<span class="op">=</span>MAB, add_bias<span class="op">=</span><span class="va">False</span>, proba_take_best_vaccin<span class="op">=</span>epsilon, n_patients_exploration<span class="op">=</span><span class="dv">0</span>, n_patients_exploitation<span class="op">=</span><span class="dv">550</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Immunity rates : [0.4, 0.45, 0.5, 0.55, 0.6]
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_76ea04d0b7754d65a460d899f4267a28/bef92b175b164ae76b2076d90d2a3b6af3c246cf.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="82">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># with exploration</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>epsilon <span class="op">=</span> <span class="fl">0.9</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>plot_a_simulation(MAB<span class="op">=</span>MAB, add_bias<span class="op">=</span><span class="va">False</span>, proba_take_best_vaccin<span class="op">=</span>epsilon, n_patients_exploration<span class="op">=</span><span class="dv">50</span>, n_patients_exploitation<span class="op">=</span><span class="dv">500</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Immunity rates : [0.4, 0.45, 0.5, 0.55, 0.6]
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_76ea04d0b7754d65a460d899f4267a28/d5cf3f8016aca88e1debd1823a5fa10167c79389.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="90">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># regret without exploration</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>epsilon <span class="op">=</span> <span class="fl">0.9</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>last_regrets <span class="op">=</span> torch.Tensor(</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>        simulation_update_immune_rate(MAB, add_bias<span class="op">=</span><span class="va">False</span>, proba_take_best_vaccin<span class="op">=</span>epsilon, n_patients_exploration<span class="op">=</span><span class="dv">0</span>, n_patients_exploitation<span class="op">=</span><span class="dv">550</span>)[<span class="dv">2</span>][<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> MAB <span class="kw">in</span> tqdm(MABs)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>print_results(<span class="va">None</span>, last_regrets)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;414edd205d874359a9ae6018a75b0dbb&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>E_exploitation_regrets : tensor(27.2443)
+std_exploitation_regrets : tensor(19.6149)
+std_exploitation_regrets rate : tensor(0.0392)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="89">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># regret without exploration</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>epsilon <span class="op">=</span> <span class="fl">0.9</span></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>last_regrets <span class="op">=</span> torch.Tensor(</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>        simulation_update_immune_rate(MAB, add_bias<span class="op">=</span><span class="va">False</span>, proba_take_best_vaccin<span class="op">=</span>epsilon, n_patients_exploration<span class="op">=</span><span class="dv">50</span>, n_patients_exploitation<span class="op">=</span><span class="dv">500</span>)[<span class="dv">2</span>][<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> MAB <span class="kw">in</span> tqdm(MABs)</span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-10"><a href="#cb38-10" aria-hidden="true" tabindex="-1"></a>print_results(<span class="va">None</span>, last_regrets)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;6ffe0d7431ce4c70b7570233069943f2&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>E_exploitation_regrets : tensor(19.1021)
+std_exploitation_regrets : tensor(10.7381)
+std_exploitation_regrets rate : tensor(0.0215)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<ul>
+<li>Vérifiez si vous obtenez un meilleur résultat avec N = 0 ou N &gt;
+0.</li>
+</ul>
+<p>The exploration phase is still useful because the regret is lower
+with N=50. However, the higher the number patients for the exploitation
+is, the lower is the difference.</p>
+<ul>
+<li>À votre avis, à quoi sert <span
+class="math inline"><em>ϵ</em></span> ?</li>
+</ul>
+<p><span class="math inline"><em>ϵ</em></span> is useful to eventually
+find the good vaccin. It avoids choosing a wrong and never change.</p>
+</div>
+<section id="ib-borne-inférieure-de-lai--robbins-lai-et-robbins-1985"
+class="cell markdown">
+<h2>I.b. Borne inférieure de Lai &amp; Robbins [Lai et Robbins,
+1985]</h2>
+</section>
+<div class="cell markdown">
+<p>Lai et Robbins [Lai et Robbins, 1985] considère une classe
+d'algorithmes <span class="math inline"><em>π</em></span> pour résoudre
+ce type de problèmes.</p>
+<p>Ils ont trouvé une borne inférieure sur les récompenses cumulées en
+valeur asymptotique :</p>
+<p><span class="math display">$$\lim_{n\rightarrow \infty} \inf_{\pi}
+\frac{\sum_{k=0}^{n-1} R_k}{\log n} \geq \sum_{i~\text{tel que}~\mu_i
+\lt \mu^*} \frac{\mu^∗−\mu_i}{\text{KL}(\mu_i,
+\mu^*)}  :=C(\mu)$$</span></p>
+<p>avec <span
+class="math inline">KL(<em>x</em>,<em>y</em>) = <em>x</em>log (<em>x</em>/<em>y</em>) + (1−<em>x</em>)log ((1−<em>x</em>)/(1−<em>y</em>))</span>
+(distance de Kullback-Leibler) et <span
+class="math inline">$\sum_{k=0}^{n-1} R_k$</span> la récompense obtenue
+sur <span class="math inline"><em>n</em></span> patients.</p>
+<p><strong>Q6. Justifiez pourquoi on peut en déduire que le regret d'un
+algorithme raisonnable sera au pire logarithmique.</strong></p>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em></p>
+</div>
+<div class="cell markdown">
+<p><strong>Q7. Tracez le regret issu de la borne de Lai &amp; Robbins et
+comparez le au regret obtenu avec l'algorithme glouton.</strong></p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em></p>
+</div>
+<section id="ic-upper-confidence-bounds" class="cell markdown">
+<h2>I.c. Upper Confidence Bounds</h2>
+</section>
+<div class="cell markdown">
+<p>Cet algorithme améliore la version précédente en ajoutant un biais
+lié à la fréquentation de chaque vaccin :</p>
+<p><span class="math inline">$\bar{\mu}_i = \hat{\mu}_i +
+\sqrt{\frac{C\log{n}}{T_i}}$</span>,</p>
+<p>avec <span class="math inline"><em>C</em> = 2</span>.</p>
+<p><strong>Q8. Implémentez la modification de cet algorithme. Observez
+un intérêt à conserver <span
+class="math inline"><em>N</em> &gt; 0</span> ? Et <span
+class="math inline"><em>ϵ</em> &lt; 1</span> ? Expliquez
+pourquoi.</strong></p>
+<p>Dans la suite, on prendra <span
+class="math inline"><em>N</em> = 0</span> et <span
+class="math inline"><em>ϵ</em> = 1</span>.</p>
+</div>
+<div class="cell code" data-execution_count="111">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>MAB <span class="op">=</span> generate_custom_arms(<span class="fl">0.1</span>, <span class="fl">0.2</span>)</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>plot_a_simulation(MAB, n_patients_exploration<span class="op">=</span><span class="dv">0</span>, n_patients_exploitation<span class="op">=</span><span class="dv">2000</span>, add_bias<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Immunity rates : [0.1, 0.3, 0.5, 0.7, 0.9]
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_76ea04d0b7754d65a460d899f4267a28/ce953be6db8c9967ff7b19f330b60a85ad9461a4.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em> There no use anymore of an
+exploration because even in exploitation the vaccin used change often
+because of the bias.</p>
+</div>
+<div class="cell markdown">
+<p><strong>Q9. Tracez sous la forme d'une animation l'évolution des taux
+d'immunisation empirique (fig. de gauche) et l'évolution du regret (fig.
+droite). Dans la figure de gauche, vous representerez <span
+class="math inline"><em>μ̄</em><sub><em>i</em></sub></span> et <span
+class="math inline"><em>μ̂</em><sub><em>i</em></sub></span> pour chaque
+vaccin.</strong></p>
+</div>
+<div class="cell code" data-execution_count="202">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># See higher</span></span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em> See higher</p>
+</div>
+<div class="cell markdown">
+<p><strong>Q10. Reprenez la question Q5 avec cette algorithme. Concluez
+sur l'utilité (ou l'inutilité) de la phase d'exploration. Comparez les
+performances d'UCB avec celles de l'algorithme glouton.</strong></p>
+</div>
+<div class="cell code" data-execution_count="112">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>MAB <span class="op">=</span> generate_custom_arms(<span class="fl">0.5</span>, <span class="fl">0.1</span>)</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>epsilon <span class="op">=</span> <span class="fl">0.9</span></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>plot_a_simulation(MAB, n_patients_exploration<span class="op">=</span><span class="dv">0</span>, n_patients_exploitation<span class="op">=</span><span class="dv">550</span>, add_bias<span class="op">=</span><span class="va">True</span>, proba_take_best_vaccin<span class="op">=</span>epsilon)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Immunity rates : [0.5, 0.6, 0.7, 0.8, 0.9]
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_76ea04d0b7754d65a460d899f4267a28/4ebace3c057656c10dd8963f25769ee0e69be905.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="113">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># UCB without exploration with epsilon (sometimes do not take the best vaccin but a random one)</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>last_regrets <span class="op">=</span> torch.Tensor(</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>        simulation_update_immune_rate(MAB, add_bias<span class="op">=</span><span class="va">True</span>, proba_take_best_vaccin<span class="op">=</span>epsilon, n_patients_exploration<span class="op">=</span><span class="dv">0</span>, n_patients_exploitation<span class="op">=</span><span class="dv">550</span>)[<span class="dv">2</span>][<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> MAB <span class="kw">in</span> tqdm(MABs)</span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb47-8"><a href="#cb47-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-9"><a href="#cb47-9" aria-hidden="true" tabindex="-1"></a>print_results(<span class="va">None</span>, last_regrets)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;a9d3fff3ac68466b9a2cc21c1028cadf&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>E_exploitation_regrets : tensor(54.2643)
+std_exploitation_regrets : tensor(15.0689)
+std_exploitation_regrets rate : tensor(0.0301)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="114">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co"># UCB with exploration</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>last_regrets <span class="op">=</span> torch.Tensor(</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>        simulation_update_immune_rate(MAB, add_bias<span class="op">=</span><span class="va">True</span>, proba_take_best_vaccin<span class="op">=</span>epsilon, n_patients_exploration<span class="op">=</span><span class="dv">50</span>, n_patients_exploitation<span class="op">=</span><span class="dv">500</span>)[<span class="dv">2</span>][<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> MAB <span class="kw">in</span> tqdm(MABs)</span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a>print_results(<span class="va">None</span>, last_regrets)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;8244212a1b56444d845477790aa7118e&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>E_exploitation_regrets : tensor(40.0821)
+std_exploitation_regrets : tensor(12.4753)
+std_exploitation_regrets rate : tensor(0.0250)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em></p>
+<ul>
+<li>Concluez sur l'utilité (ou l'inutilité) de la phase
+d'exploration.</li>
+</ul>
+<p>The exploration phase is still useful because the regrets is lower
+with. I have to admit that I do not know why.</p>
+</div>
+<div class="cell code" data-execution_count="117">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Glouton with exploration</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>last_regrets <span class="op">=</span> torch.Tensor(</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>        simulation_update_immune_rate(MAB, add_bias<span class="op">=</span><span class="va">False</span>, proba_take_best_vaccin<span class="op">=</span>epsilon, n_patients_exploration<span class="op">=</span><span class="dv">50</span>, n_patients_exploitation<span class="op">=</span><span class="dv">500</span>)[<span class="dv">2</span>][<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> MAB <span class="kw">in</span> tqdm(MABs)</span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb53-7"><a href="#cb53-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb53-8"><a href="#cb53-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-9"><a href="#cb53-9" aria-hidden="true" tabindex="-1"></a>print_results(<span class="va">None</span>, last_regrets)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;89d2eb97738040458f980e49a9e1ed00&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>E_exploitation_regrets : tensor(20.5821)
+std_exploitation_regrets : tensor(11.6055)
+std_exploitation_regrets rate : tensor(0.0232)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<ul>
+<li>Comparez les performances d'UCB avec celles de l'algorithme
+glouton.</li>
+</ul>
+<p>Glouton is better. The bias might help to find the best vaccin but it
+might help on too few situation and the cost is to high.</p>
+</div>
+<div class="cell markdown">
+<p><strong>Q11. Testez différentes valeurs pour <span
+class="math inline"><em>C</em></span> et trouvez sa valeur optimale
+expérimentalement.</strong></p>
+</div>
+<div class="cell code" data-execution_count="118">
+<div class="sourceCode" id="cb56"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> C <span class="kw">in</span> tqdm(<span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">5</span>)):</span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>    last_regrets <span class="op">=</span> torch.Tensor(</span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>        simulation_update_immune_rate(MAB, add_bias<span class="op">=</span><span class="va">True</span>, proba_take_best_vaccin<span class="op">=</span><span class="dv">1</span>, n_patients_exploration<span class="op">=</span><span class="dv">50</span>, n_patients_exploitation<span class="op">=</span><span class="dv">500</span>)[<span class="dv">2</span>][<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb56-5"><a href="#cb56-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> MAB <span class="kw">in</span> tqdm(MABs)</span>
+<span id="cb56-6"><a href="#cb56-6" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb56-7"><a href="#cb56-7" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb56-8"><a href="#cb56-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-9"><a href="#cb56-9" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;C :&quot;</span>, C)</span>
+<span id="cb56-10"><a href="#cb56-10" aria-hidden="true" tabindex="-1"></a>    print_results(<span class="va">None</span>, last_regrets)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;b5be28fb94dc44d6b10facdb3fec4797&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb58"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;24a1a7e2b62343a9b0c3eeba688aa4a7&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>C : 1
+E_exploitation_regrets : tensor(17.2821)
+std_exploitation_regrets : tensor(11.2624)
+std_exploitation_regrets rate : tensor(0.0225)
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb60"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;795798f696344c0c9730552ac9642812&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>C : 2
+E_exploitation_regrets : tensor(35.3121)
+std_exploitation_regrets : tensor(13.6438)
+std_exploitation_regrets rate : tensor(0.0273)
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb62"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;163037de8a40488b9a7e8f1e3e772d2a&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>C : 3
+E_exploitation_regrets : tensor(44.6021)
+std_exploitation_regrets : tensor(13.6911)
+std_exploitation_regrets rate : tensor(0.0274)
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb64"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;86b1d3a999e94e27841281233601fac5&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>C : 4
+E_exploitation_regrets : tensor(52.0121)
+std_exploitation_regrets : tensor(14.7403)
+std_exploitation_regrets rate : tensor(0.0295)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em></p>
+<p>The best C is the lower one (so 0), it might have a mistake in my
+code to find these results.</p>
+</div>
+<section id="echantillonnage-de-thomson" class="cell markdown">
+<h1>Echantillonnage de Thomson</h1>
+<p>Cet algorithme propose de modéliser la variable aléatoire de chaque
+vaccin avec une loi <span class="math inline"><em>β</em></span> dont les
+paramètres <span class="math inline"><em>a</em></span> et <span
+class="math inline"><em>b</em></span> correspondent au nombre de
+patients que le vaccin a immunisés (resp. non immunisés).</p>
+<p>Pour chaque patient, on tire un valeur aléatoire pour la loi <span
+class="math inline"><em>β</em></span> décrivant chaque vaccin, puis on
+choisit le vaccin avec la plus grande valeur tirée.</p>
+</section>
+<div class="cell markdown">
+<p><strong>Q12. Implémentez cet algorithme. En testant plusieurs valeurs
+de <span class="math inline"><em>N</em></span>, montrez que la phase
+d'exploration précédente a un impact très limité. Cela veut-il dire que
+l'algorithme ne contient pas d'initialisation ?</strong></p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb66"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em></p>
+</div>
+<div class="cell markdown">
+<p><strong>Q13. Tracez sous la forme d'une animation l'évolution des
+taux d'immunisation empirique (fig. de gauche) et l'évolution du regret
+(fig. droite). Dans la figure de gauche, vous representerez le taux
+d'immunisation empirique pour chaque vaccin avec un <a
+href="https://en.wikipedia.org/wiki/Violin_plot">graphique en violon</a>
+qui représente la loi beta associée à chaque vaccin.</strong></p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb67"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em></p>
+</div>
+<div class="cell markdown">
+<p><strong>Q14. Comparez le regret avec les autres
+algorithmes.</strong></p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb68"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><em>[Ajoutez votre commentaire ici]</em></p>
+</div>
+<section id="conclusion" class="cell markdown">
+<h1>Conclusion</h1>
+<p><strong>Q15. Calculez le regret des algorithmes glouton, UCB &amp;
+Thomson lorsqu'il y a un grand nombre de vaccins disponibles (K=100) (on
+prendra N=100). Faites le lien avec la <a
+href="https://fr.wikipedia.org/wiki/Fl%C3%A9au_de_la_dimension">malédiction
+de la dimension</a>.</strong></p>
+</section>
+<div class="cell code" data-execution_count="119">
+<div class="sourceCode" id="cb69"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a>MABs100 <span class="op">=</span> [generate_arms(<span class="dv">100</span>) <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">100</span>)]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="128">
+<div class="sourceCode" id="cb70"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Glouton with exploration and with epsilon</span></span>
+<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>plot_a_simulation(MABs100[<span class="dv">0</span>], n_patients_exploration<span class="op">=</span><span class="dv">50</span>, n_patients_exploitation<span class="op">=</span><span class="dv">500</span>, add_bias<span class="op">=</span><span class="va">False</span>, proba_take_best_vaccin<span class="op">=</span><span class="fl">0.9</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Immunity rates : [0.228, 0.86, 0.09, 0.372, 0.117, 0.543, 0.369, 0.568, 0.211, 0.997, 0.775, 0.65, 0.01, 0.737, 0.389, 0.362, 0.16, 0.851, 0.197, 0.72, 0.614, 0.704, 0.556, 0.959, 0.922, 0.667, 0.249, 0.707, 0.963, 0.845, 0.772, 0.664, 0.966, 0.207, 0.651, 0.634, 0.691, 0.221, 0.94, 0.181, 0.966, 0.998, 0.28, 0.29, 0.206, 0.15, 0.609, 0.229, 0.404, 0.19, 0.285, 0.02, 0.895, 0.053, 0.808, 0.845, 0.111, 0.794, 0.081, 0.568, 0.061, 0.316, 0.977, 0.036, 0.854, 0.136, 0.271, 0.195, 0.714, 0.75, 0.55, 0.0, 0.45, 0.264, 0.193, 0.929, 0.0, 0.116, 0.342, 0.256, 0.09, 0.849, 0.171, 0.718, 0.581, 0.732, 0.139, 0.25, 0.639, 0.677, 0.182, 0.992, 0.682, 0.017, 0.296, 0.957, 0.535, 0.919, 0.108, 0.927]
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_76ea04d0b7754d65a460d899f4267a28/65b38e88e710749e7bcff6b1d23b4937e6c232eb.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="129">
+<div class="sourceCode" id="cb72"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a><span class="co"># UCB with exploration and with epsilon</span></span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a>plot_a_simulation(MABs100[<span class="dv">0</span>], n_patients_exploration<span class="op">=</span><span class="dv">50</span>, n_patients_exploitation<span class="op">=</span><span class="dv">500</span>, add_bias<span class="op">=</span><span class="va">True</span>, proba_take_best_vaccin<span class="op">=</span><span class="fl">0.9</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Immunity rates : [0.228, 0.86, 0.09, 0.372, 0.117, 0.543, 0.369, 0.568, 0.211, 0.997, 0.775, 0.65, 0.01, 0.737, 0.389, 0.362, 0.16, 0.851, 0.197, 0.72, 0.614, 0.704, 0.556, 0.959, 0.922, 0.667, 0.249, 0.707, 0.963, 0.845, 0.772, 0.664, 0.966, 0.207, 0.651, 0.634, 0.691, 0.221, 0.94, 0.181, 0.966, 0.998, 0.28, 0.29, 0.206, 0.15, 0.609, 0.229, 0.404, 0.19, 0.285, 0.02, 0.895, 0.053, 0.808, 0.845, 0.111, 0.794, 0.081, 0.568, 0.061, 0.316, 0.977, 0.036, 0.854, 0.136, 0.271, 0.195, 0.714, 0.75, 0.55, 0.0, 0.45, 0.264, 0.193, 0.929, 0.0, 0.116, 0.342, 0.256, 0.09, 0.849, 0.171, 0.718, 0.581, 0.732, 0.139, 0.25, 0.639, 0.677, 0.182, 0.992, 0.682, 0.017, 0.296, 0.957, 0.535, 0.919, 0.108, 0.927]
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_76ea04d0b7754d65a460d899f4267a28/71203d5e9ca9097e640273e7f6607e3629cba9ca.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>With a such a high dimension, the best vaccin or a good vaccin would
+take too much exploration too be found. Even the bias or the epsilon
+could not help enough to counter the dimension malediction.</p>
+</div>
+</body>
+</html>
